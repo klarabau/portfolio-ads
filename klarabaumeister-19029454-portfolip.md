@@ -6,7 +6,7 @@ Lecturers: Jeroen Vuurens, Tony Andrioli, Gerda in 't Veld, Ruud Vermeij, Brian 
 
 ## Research project
 ### Task definition
-This is a portfolio summarizing my individual work for the Nano project of the Applied Data Science minor at The Hague University.
+This portfolio summarizes my individual work and effort for the Nano project of the Applied Data Science minor.
 
 In the Nano project we aim to help VSParticle, a company that derived from TU Delft's nanotech group. They work with nanoparticles and, among others, analyze nanoparticle images to calculate the particle’s sizes. To do this, VSParticle has built an image processing program that results in an edited image which enables the software to calculate the particle’s sizes. Part of the image processing is the thresholding step, where greyscale images are converted into bitmaps using thresholding algorithms and user input. This step distinctly separates the nanoparticles from the background. In combination with our minor, our goal is to automate this step using a Machine Learning or Deep Learning model which predicts the best algorithm to use. Our research question reads as follows:
 	
@@ -29,7 +29,7 @@ Clear and motivated directions for future work
 Discuss results, answer research question etc. 
 
 ### Planning
-To make our group work as efficient and flexible as possible, we used Scrum. We planned sprint periods of two weeks, including daily standups and retrospectives at the end of each sprint. In order to get an overview of everybody's work progress, we used the platform Jira to create a Scrumboard, which can be found here: 
+To make our group work as efficient and agile as possible, we used Scrum. We planned sprint periods of two weeks, including daily standups and retrospectives at the end of each sprint. In order to get an overview of everybody's work progress, we used the platform Jira to create a Scrumboard. All of our completed issues from the sprints can be found [here](https://vsparticle-nano.atlassian.net/jira/software/c/projects/NANO/issues).
 
 
 
@@ -59,30 +59,31 @@ Please see the content and statement of accomplishement of each course here:
 
 
 ### Machine Learning  
-short intro + topic list 
+In the lectures about Machine Learning, I learned about the following topics:
 
 ### Research  
-short intro + topic list 
+In the lectures about Research, I learned about the following topics:
 
 ### Data Visualization  
-short intro + topic list 
+In the lectures about Data Visualization, I learned about the following topics:
 
 ### Neural Networks  
-short intro + topic list 
+In the lectures about Neural Networks, I learned about the following topics:
 
 
 
 
 ## Domain Knowledge 
 ### Introduction to the subject field
-Basic research on the topic and VSParticle 
+I started out by doing basic research on the topic of nanoparticles and VSParticle. It can be found here: 
+
+In order to gain more insights into how the thresholding algorithms operate, I researched how each of the algorithms work. The notes can be found here: 
 
 ### Literature research
-Literature research on the thresholding algorithms 
+As it quickly became clear that we were dealing with imbalanced data, each of us researched a possible solution to our problem. My research on Random Oversampling can be found here: 
 
 ### Terminology
 Used jargon in the field of nanoparticles is listed here:
-
 - Term: Explanation 
 
 
@@ -90,16 +91,19 @@ Used jargon in the field of nanoparticles is listed here:
 
 ## Data preprocessing
 ### Data exploration
-Research on Random oversampling to handle imbalanced data 
+/
 		
 ### Data cleansing
-
+/
 
 ### Data preparation
-Replacing the faulty csv file with new csv file in my code
+/
 
 ### Data explanation
+/
+
 ### Data visualization
+The Machine Learning models that I have visualized can be found in the next chapter, Predictive models.
 <i>Improve visualizations according to visualization lecture</i> 
 
 
@@ -129,42 +133,47 @@ Replacing the faulty csv file with new csv file in my code
 ### Presentations
 - Week 2: Internal presentation, created and presented by Klara 
 - Week 3: Internal presentation, created and presented by Klara 
-- Week 8: Internal presentation, created and presented by Klara
 - Week 4: External presentation, created and presented by Klara and Yoran
+- Week 8: Internal presentation, created and presented by Klara
+
 
 ### Research Plan
-- Find research question 
-- Find sub-questions with Oscar 
-- Refine sub-questions alone 
-- Write introduction, schedule etc 
-- Write literature review 
+My contributions to the research paper have been broadly spread out and significant. My contributions ranged from writing detailed chapters like the introduction and individual sub-question descriptions, to general layout. The research plan can be found here:
+
+The following contents of the research plan have been made by me:
+- Introduction
+- Literature review 
+- Formulate research question 
+- Formulate sub-questions (with Oscar)
 - Write about sub-questions 2 and 4 in detail 
+
 
 
 ### Research Paper
 My contributions to the research paper have been broadly spread out and significant. My contributions ranged from writing detailed chapters, to general layout, grammar and consistency. The research paper can be found here.
 
-Contributions made by me:
+The following contents of the research paper have been made by me:
 
 
-### Other
-- Keep Jira up to date 
-- Keep notes of meetings 
+### Other efforts
+Throughout the whole project, I kept notes of each meeting in order to record them for possible questions and obscurities later on.
 
 
 
 
 ## Diganostics of the learning process 
-Rough start with a lot of new information to take in and not really an idea of how to start, but then I just started and my understanding of how everything works and is related grew fast. 
+As a User Experience Design student, I have only had short experiences with coding and programming so far. In order to extend them and learn more about statistics and data visualization, I chose this minor. 
+
+As I have not had much background knowledge on the topic, the minor started with a lot of new information to take in. It was difficult for me to get an idea of how to start. I quickly realised that even though I was not sure about things, I had to just do them in order to improve and learn. Since then, my understanding of how data science works and how to approach it grew constantly. 
 	
-Change of approach early on: Predict user score for each thresholding algorithm, then pick best scoring algorithm - Yoran's idea 
+Early on, our team had a change of approach: Instead of predicting the thresholding algorithm with input features like the user score, we focused on predicting the user score with other features. Then we could select the thresholding algorithm that scored the highest user score. 
 	
-Faulty csv file, we did not validate or review Oscar's code 
+We learned the hard way how important it is to review and check other group member's work, as we realized a couple of weeks into the minor that the csv file we had been working with contained faulty values. We could have avoided this by reviewing Oscar's code before working with the file.
 
 
 
 
-## Reflection and Evaluation using STARR
+## Evaluation using STARR
 
 
 
