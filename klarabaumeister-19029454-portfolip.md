@@ -189,7 +189,7 @@ The following contents of the research plan have been made by me:
 My contributions to the research paper have been broadly spread out and significant. My contributions ranged from creating the file and its structure in the first place, to writing detailed chapters, to refining grammar and consistency. The research paper can be found here.
 
 The following contents of the research paper have been made by me:
-
+- Creation of file and structure (group work with Oscar and Yoran)
 
 ### Other efforts
 Throughout the whole project, I kept notes of each meeting in order to record them for possible questions and obscurities later on. 
