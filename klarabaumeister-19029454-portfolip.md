@@ -25,8 +25,9 @@ In order to achieve our goal, we received a json file from VSParticle containing
 
 ### Conclusions
 Discuss the results, answer the research question etc. 
+
 ### Planning
-To make our group work as efficiently and agile as possible, we used Scrum. We planned sprint periods of two weeks, including daily standups and retrospectives at the end of each sprint. In order to get an overview of everybody's work progress, we used the platform Jira to create a Scrumboard. All of our completed issues from the sprints can be found [here](https://vsparticle-nano.atlassian.net/jira/software/c/projects/NANO/issues).
+To make our group work as efficient and agile as possible, we used Scrum. We planned sprint periods of two weeks, including daily standups and retrospectives at the end of each sprint. In order to get an overview of everybody's work progress, we used the platform Jira to create a Scrumboard. All of our completed issues from the sprints can be found [here](https://vsparticle-nano.atlassian.net/jira/software/c/projects/NANO/issues).
 
 
 ## Courses
@@ -111,21 +112,30 @@ In the lectures about Data Visualization, I learned about the following topics:
 To see where I informed myself about the topic and what information I gathered, please expand the sections below.
 
 <details><summary>Nanoparticles</summary>
-Nanoparticles are particles ranging from one single atom to atomic clusters or bulk crystals of 100nm or larger ([1][1]). 
+
+Nanoparticles are particles ranging from one single atom to atomic clusters or bulk crystals of 100nm or less ([Wikipedia][1]). 
 	
-In the field of analyzing nanoparticles, there are two ways of making the particles visible to the human eye: SEM and TEM. SEM, short for Scanning Electron Microscope, produces images of a sample by scanning the surface with a focused beam of electrons. The electron beam is then scanned in a raster scan pattern, and the position of the beam is combined with the intensity of the detected signal to produce an image ([1][1]). 
-	
-TEM, which stands for  Transmission Electron Microscopy, forms an image by transmitting a beam of electrons through a specimen. The specimen is most often an ultrathin section less than 100nm thick, or a suspension on a grid ([1][1]).
+In the field of analyzing nanoparticles, there are two ways of making the particles visible to the human eye: SEM and TEM. SEM, short for Scanning Electron Microscope, produces images of a sample by scanning the surface with a focused beam of electrons. The electron beam is then scanned in a raster scan pattern, and the position of the beam is combined with the intensity of the detected signal to produce an image ([Wikipedia][2]). TEM, which stands for  Transmission Electron Microscopy, forms an image by transmitting a beam of electrons through a specimen. The specimen is most often an ultrathin section less than 100nm thick, or a suspension on a grid ([Wikipedia][3]).
 </details>
 
 <details><summary>Thresholding</summary>
-According to ...([2][2]), thresholding is differenciated in global and local thresholding methods. Global thresholding focuses on the image histogram, analyzing its peaks, valleys and curvations, while local thresholding computes a threshold for each pixel and turns it either black or white. In our case, VSParticle uses the global thresholding method. 
 
+Thresholding is differenciated into global and local thresholding methods. Global thresholding focuses on the image histogram, analyzing its peaks, valleys and curvations, while local thresholding computes a threshold for each pixel and turns it either black or white ([ImageJ][4]). In our case, VSParticle uses the global thresholding method. 
 
+Algorithms used in thresholding can be saved for repeated use as thresholding methods. Most methods use image intensity li, j to determine whether a pixel turns white or black. If li, j is smaller than a fixed constant T, the pixel turns black ([Wikipedia][5]). 
+
+Li, Zhou, Zhu, Ma, Huang and Wong used a multiple thresholding method to classify nanoparticle images into three types: bright, dark and background. This helped them achieve pixel classification and shows that the thresholding step is very important when working with nanoparticle images ([High content image analysis for human H4 neuroglioma cells exposed to CuO nanoparticles][5]). 
 </details>
 
-[1]: http://example.com/ "Title"
-[2]: http://example.org/ "Title"
+[1]: https://en.wikipedia.org/wiki/Nanoparticle#:~:text=A%20nanoparticle%20or%20ultrafine%20particle,nm%20in%20only%20two%20directions.
+[2]: https://en.wikipedia.org/wiki/Transmission_electron_microscopy
+[3]: https://en.wikipedia.org/wiki/Scanning_electron_microscope
+[4]: https://imagej.net/Auto_Threshold
+[5]: https://en.wikipedia.org/wiki/Thresholding_(image_processing)
+[6]: https://link.springer.com/article/10.1186/1472-6750-7-66
+
+
+[x]: https://journals.tubitak.gov.tr/chem/issues/kim-06-30-1/kim-30-1-1-0508-1.pdf
 
 ### Terminology
 Used jargon in the field of nanoparticles and VSParticle's software is listed here:
@@ -133,82 +143,77 @@ Used jargon in the field of nanoparticles and VSParticle's software is listed he
 - Run: an image being processed once in each step of the software
 - See lit. review
 
-My research notes on the thresholding algorithms used by VSParticle can be found [here](portfolio-ads/notebooks/research_notes_thresholding_algorithms.ipynb).
+My research notes on the thresholding algorithms used by VSParticle can be found [here]().
 
 
 ## Most relevant notebooks
-Look at next chapter and pick most important ones
+///
 
 
 ## List of all of my notebooks 
 For a complete list of all notebooks I created during the project, please expand the sections below.
 
 <details>
-	<summary> Data preprocessing </summary>
-	///
+<summary> Data preprocessing </summary>
+///
 </details>
 
 <details>
-	<summary> Data exploration </summary>
-	///
+<summary> Data exploration </summary>
+///
 </details>
 
 <details>
-	<summary> Data explanation </summary>
-	<ul>
-		<li>[Explanation of original json file]()</li>
-	</ul>
+<summary> Data explanation </summary>
+	
+-[Explanation of original json file]() 
 </details>
 
 <details>
-	<summary> Data cleansing </summary>
-	///
+<summary> Data cleansing </summary>
+///
 </details>
 
 <details>
-	<summary> Data preparation </summary>
-	<ul>
-		<li>[Random Oversampling function]()</li>
-	</ul>
+<summary> Data preparation </summary>
+
+-[Random Oversampling function]()
 </details>
 
 <details>
-	<summary> Data visualization </summary>
-	<ul>
-		<li>[Occurences of datapoints for each thresholding method]()</li>
-	</ul>
+<summary> Data visualization </summary>
+	
+- [Occurences of datapoints for each thresholding method]()
 </details>
 
 <details>
 	<summary> Machine Learning models </summary>
-	<ul>
-		<li>[Linear/Polynomial Regression model: count vs. user score (full dataset)]()</li>
-		<li>[Linear/Polynomial Regression model: count vs. user score]() </li>
-		<li>[Linear/Polynomial Regression model: separation vs. user score]() </li>
-		<li>[Linear/Polynomial Regression model: separation, border and more vs. user score]() </li>
-		<li>[Multiclass Logistic Regression model: feature comparison (with help from Yoran)]()</li>
-		<li>[Multiclass Logistic Regression model: separation, intensity, count]()</li>
-	</ul>
+	
+- [Linear/Polynomial Regression model: count vs. user score (full dataset)]()
+- [Linear/Polynomial Regression model: count vs. user score (yen)]() 
+- [Linear/Polynomial Regression model: separation vs. user score (yen)]() 
+- [Linear/Polynomial Regression model: separation, border and more vs. user score (yen)]() 
+- [Multiclass Logistic Regression model: feature comparison (yen, with help from Yoran)]()
+- [Multiclass Logistic Regression model: separation, intensity, count (yen)]()
 </details>
 
 <details>
-	<summary> Contributions to group code </summary>
-	<ul>
-		<li>[Experiment #1: Random Oversampling function]()</li>
-	</ul>
+<summary> Contributions to group code </summary>
+
+- [Experiment #1: Random Oversampling function]()
 </details>
 
 
 ## Communication 
 ### Presentations
-- Week 2: Internal presentation, created and presented by me 
-- Week 3: Internal presentation, created and presented by me 
-- Week 4: External presentation, created and presented by Yoran and me
-- Week 8: Internal presentation, created and presented by me
-- Week 11: Internal presentation, created and presented by me
+- [Week 2](): Internal presentation, created and presented by me 
+- [Week 3](): Internal presentation, created and presented by me 
+- [Week 4](): External presentation, created and presented by Yoran and me
+- [Week 8](): Internal presentation, created and presented by me
+- [Week 11](): Internal presentation, created and presented by me
 
 ### Research Plan
-My contributions to the research paper have been broadly spread out and significant. My contributions ranged from writing detailed chapters like the introduction and individual sub-question descriptions, to general layout. The research plan can be found here.
+My contributions to the research paper have been broadly spread out and significant. My contributions ranged from writing detailed chapters like the introduction and individual sub-question descriptions, to general layout. The research plan can be found [here]().
 
 The following contents of the research plan have been made by me:
 - Introduction
@@ -219,7 +224,7 @@ The following contents of the research plan have been made by me:
 - Re-writing sub-question 4, as we changed our approach after group members left
 
 ### Research Paper
-My contributions to the research paper have been .... The research paper can be found here.
+My contributions to the research paper have been .... The research paper can be found [here]().
 
 The following contents of the research paper have been made by me:
 - Creation of file and structure (group work with Oscar and Yoran)
