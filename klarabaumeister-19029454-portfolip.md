@@ -127,7 +127,7 @@ Algorithms used in thresholding can be saved for repeated use as thresholding me
 Li, Zhou, Zhu, Ma, Huang and Wong used a multiple thresholding method to classify nanoparticle images into three types: bright, dark and background. This helped them achieve pixel classification and shows that the thresholding step is very important when working with nanoparticle images ([High content image analysis for human H4 neuroglioma cells exposed to CuO nanoparticles][5]). 
 </details>
 
-[1]: https://en.wikipedia.org/wiki/Nanoparticle#:~:text=A%20nanoparticle%20or%20ultrafine%20particle,nm%20in%20only%20two%20directions.
+[1]: https://en.wikipedia.org/wiki/Nanoparticle
 [2]: https://en.wikipedia.org/wiki/Transmission_electron_microscopy
 [3]: https://en.wikipedia.org/wiki/Scanning_electron_microscope
 [4]: https://imagej.net/Auto_Threshold
@@ -141,7 +141,7 @@ Li, Zhou, Zhu, Ma, Huang and Wong used a multiple thresholding method to classif
 Used jargon in the field of nanoparticles and VSParticle's software is listed here:
 - Thresholding: method for turning a grayscale / colored images into binary images
 - Run: an image being processed once in each step of the software
-- See lit. review
+- ...
 
 My research notes on the thresholding algorithms used by VSParticle can be found [here]().
 
@@ -166,7 +166,7 @@ For a complete list of all notebooks I created during the project, please expand
 <details>
 <summary> Data explanation </summary>
 	
--[Explanation of original json file]() 
+- [Explanation of original json file]() 
 </details>
 
 <details>
@@ -177,7 +177,7 @@ For a complete list of all notebooks I created during the project, please expand
 <details>
 <summary> Data preparation </summary>
 
--[Random Oversampling function]()
+- [Random Oversampling function]()
 </details>
 
 <details>
