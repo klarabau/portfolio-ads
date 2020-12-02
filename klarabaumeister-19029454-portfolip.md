@@ -113,18 +113,28 @@ To see where I informed myself about the topic and what information I gathered, 
 
 <details><summary>Nanoparticles</summary>
 
-Nanoparticles are particles ranging from one single atom to atomic clusters or bulk crystals of 100nm or less ([Wikipedia][1]). 
+Nanoparticles are particles ranging from one single atom to atomic clusters or bulk crystals of 100nm or less ([Wikipedia][1]). They have proved to be of high significance in various fields of work, including quantum computers, chemical sensors and photochemical devices such as flat panel displays, among others ([Analysis of Nanoparticle Transmission Electron Microscopy Data...][7]).
 	
-In the field of analyzing nanoparticles, there are two ways of making the particles visible to the human eye: SEM and TEM. SEM, short for Scanning Electron Microscope, produces images of a sample by scanning the surface with a focused beam of electrons. The electron beam is then scanned in a raster scan pattern, and the position of the beam is combined with the intensity of the detected signal to produce an image ([Wikipedia][2]). TEM, which stands for  Transmission Electron Microscopy, forms an image by transmitting a beam of electrons through a specimen. The specimen is most often an ultrathin section less than 100nm thick, or a suspension on a grid ([Wikipedia][3]).
+For analysation and documentation, microscopic images of the particles are often saved and used for further research. There are two ways of making the particles visible to the human eye: SEM and TEM. SEM, short for Scanning Electron Microscope, produces images of a sample by scanning the surface with a focused beam of electrons. The electron beam is then scanned in a raster scan pattern, and the position of the beam is combined with the intensity of the detected signal to produce an image ([Wikipedia][2]). TEM, which stands for  Transmission Electron Microscopy, forms an image by transmitting a beam of electrons through a specimen. The specimen is most often an ultrathin section less than 100nm thick, or a suspension on a grid ([Electron Microscopy Techniques ...][9]).
 </details>
 
 <details><summary>Thresholding</summary>
 
-Thresholding is differenciated into global and local thresholding methods. Global thresholding focuses on the image histogram, analyzing its peaks, valleys and curvations, while local thresholding computes a threshold for each pixel and turns it either black or white ([ImageJ][4]). In our case, VSParticle uses the global thresholding method. 
+Thresholding is differenciated into global and local thresholding methods. Global thresholding focuses on the image histogram, analyzing its peaks, valleys and curves, while local thresholding computes a threshold for each pixel and turns it either black or white ([ImageJ][4]).
 
-Algorithms used in thresholding can be saved for repeated use as thresholding methods. Most methods use image intensity li, j to determine whether a pixel turns white or black. If li, j is smaller than a fixed constant T, the pixel turns black ([Wikipedia][5]). 
+Algorithms used in thresholding can be saved for repeated use as thresholding methods. Most methods use image intensity li, j to determine whether a pixel turns white or black. If li, j is smaller than a fixed constant T, the pixel turns black ([Wikipedia][5]). There are multiple methods that have been proved to be very efficient, for example Otsu([A Threshold Selection Method from Gray-Level Histograms][10]), Yen([A new criterion for automatic multilevel thresholding.][11]) and many more([ImageJ][4]).
+</details>
 
-Li, Zhou, Zhu, Ma, Huang and Wong used a multiple thresholding method to classify nanoparticle images into three types: bright, dark and background. This helped them achieve pixel classification and shows that the thresholding step is very important when working with nanoparticle images ([High content image analysis for human H4 neuroglioma cells exposed to CuO nanoparticles][5]). 
+<details><summary>Image processing with nanoparticles</summary>
+	
+F. Li et al. used a multiple thresholding method to classify nanoparticle images into three types: bright, dark and background. This helped them achieve pixel classification and shows that the thresholding step is very important when working with nanoparticle images ([High content image analysis...][6]). 
+
+G. H. Woehrle et al. ... ([Analysis of Nanoparticle Transmission Electron...](7))
+</details>
+
+<details><summary>VSParticle</summary>
+	
+VSParticle, a company based in Delft, has conducted a lot of research in the field of nanoparticles over the past years. Calculating the size of nanoparticles using microscopic images is one branch they focus their work on. ([VSParticle][8]). 
 </details>
 
 [1]: https://en.wikipedia.org/wiki/Nanoparticle
@@ -132,10 +142,13 @@ Li, Zhou, Zhu, Ma, Huang and Wong used a multiple thresholding method to classif
 [3]: https://en.wikipedia.org/wiki/Scanning_electron_microscope
 [4]: https://imagej.net/Auto_Threshold
 [5]: https://en.wikipedia.org/wiki/Thresholding_(image_processing)
+[8]: https://vsparticle.com/
+
 [6]: https://link.springer.com/article/10.1186/1472-6750-7-66
-
-
-[x]: https://journals.tubitak.gov.tr/chem/issues/kim-06-30-1/kim-30-1-1-0508-1.pdf
+[7]: https://journals.tubitak.gov.tr/chem/issues/kim-06-30-1/kim-30-1-1-0508-1.pdf
+[9]: https://www.sciencedirect.com/science/article/pii/B9780323299602000095
+[10]: https://ieeexplore.ieee.org/document/4310076?arnumber=4310076
+[11]: https://ieeexplore.ieee.org/document/366472?arnumber=366472
 
 ### Terminology
 Used jargon in the field of nanoparticles and VSParticle's software is listed here:
@@ -178,6 +191,7 @@ For a complete list of all notebooks I created during the project, please expand
 <summary> Data preparation </summary>
 
 - [Random Oversampling function]()
+- [K-fold cross validation]()
 </details>
 
 <details>
@@ -224,10 +238,17 @@ The following contents of the research plan have been made by me:
 - Re-writing sub-question 4, as we changed our approach after group members left
 
 ### Research Paper
-My contributions to the research paper have been .... The research paper can be found [here]().
+My contributions to the research paper have been... The research paper can be found [here]().
 
-The following contents of the research paper have been made by me:
+The following contributions to the research paper have been fully made by me:
+- Introduction
+
+The following contributions to the research paper have been partly made by me:
 - Creation of file and structure (group work with Oscar and Yoran)
+- Abstract
+
+Furthermore, the references 1-7 have been found and researched by me.
+
 
 ### Other efforts
 Throughout the whole project, I kept notes of each meeting in order to keep record of them for possible questions later on. 
