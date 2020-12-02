@@ -113,7 +113,7 @@ To see where I informed myself about the topic and what information I gathered, 
 
 <details><summary>Nanoparticles</summary>
 
-Nanoparticles are particles ranging from one single atom to atomic clusters or bulk crystals of 100nm or less ([Wikipedia][1]). They have proved to be of high significance in various fields of work, including quantum computers, chemical sensors and photochemical devices such as flat panel displays, among others ([Analysis of Nanoparticle Transmission Electron Microscopy Data...][7]).
+Nanoparticles are particles ranging from one single atom to atomic clusters or bulk crystals of 100nm or less ([Wikipedia][1], [Nanoparticle][12]). They have proved to be of high significance in various fields of work, such as medicine, engineering and chemistry, for products like quantum computers, chemical sensors and photochemical devices such as flat panel displays, among others ([Analysis of Nanoparticle Transmission Electron Microscopy Data...][7], [Nanoparticle][12]).
 	
 For analysation and documentation, microscopic images of the particles are often saved and used for further research. There are two ways of making the particles visible to the human eye: SEM and TEM. SEM, short for Scanning Electron Microscope, produces images of a sample by scanning the surface with a focused beam of electrons. The electron beam is then scanned in a raster scan pattern, and the position of the beam is combined with the intensity of the detected signal to produce an image ([Wikipedia][2]). TEM, which stands for  Transmission Electron Microscopy, forms an image by transmitting a beam of electrons through a specimen. The specimen is most often an ultrathin section less than 100nm thick, or a suspension on a grid ([Electron Microscopy Techniques ...][9]).
 </details>
@@ -149,6 +149,7 @@ VSParticle, a company based in Delft, has conducted a lot of research in the fie
 [9]: https://www.sciencedirect.com/science/article/pii/B9780323299602000095
 [10]: https://ieeexplore.ieee.org/document/4310076?arnumber=4310076
 [11]: https://ieeexplore.ieee.org/document/366472?arnumber=366472
+[12]: https://www.britannica.com/science/nanoparticle
 
 ### Terminology
 Used jargon in the field of nanoparticles and VSParticle's software is listed here:
@@ -258,6 +259,8 @@ Of course, I also kept my part of the Jira board up to date and documented my wo
 
 ## Diganostics of the learning process
 Our project group definitely learned how important it is to review and check other group member's work, as we realized a couple of weeks into the minor that the csv file we had been working with contained faulty values. Midway through the project the same thing happened and we noticed our assumptions about the dataset were not correct. We could have avoided this by reviewing each others code more in depth before working with the files. However, luckily the changes from the corrupted values were not too high so that the first interpretations we got were not heavily misleading. After updating our old models, which went fairly quick as we simply needed to change the file that the notebook was reading, we could continue where we left off.
+
+Additionally, we should have cross-validated earlier on early models and experiments, not just the last one. We decided to focus on the models first but it turned out that not cross-validating from the beginning deferred our interpretations on the data. Luckily, we kept our options open until the final experiment in which we cross-validated our data, so we could re-interpret the data rather easily. cuz the conclusions we drew were all on the experiment , which was cross validated , we didn't need to rerun old ones.
 
 ...
 
