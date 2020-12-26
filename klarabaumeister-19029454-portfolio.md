@@ -196,7 +196,7 @@ For a complete list of all notebooks I created during the project, please expand
 
 
 ### Research Plan
-My contributions to the research paper have been broadly spread out and significant. My contributions ranged from writing detailed chapters like the introduction and individual sub-question descriptions, to general layout. The research plan can be found [here]().
+My contributions to the research paper have been broadly spread out and significant. My contributions ranged from writing detailed chapters like the introduction and individual sub-question descriptions, to general layout. The research plan can be found [here](https://github.com/klarabau/portfolio-ads/blob/main/research%20plan/research%20plan.pdf).
 
 The following contents of the research plan have been made by me:
 - Introduction
