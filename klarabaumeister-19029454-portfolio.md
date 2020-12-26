@@ -143,7 +143,7 @@ My research notes on the thresholding algorithms used by VSParticle can be found
 For a complete list of all notebooks I created during the project, please expand the sections below.
 
 Link test:
-[N-Fold cross validation](notebooks/k-fold cross validation.ipynb)
+[N-Fold cross validation](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/k-fold%20cross%20validation.ipynb)
 
 <details>
 <summary> Data preprocessing </summary>
