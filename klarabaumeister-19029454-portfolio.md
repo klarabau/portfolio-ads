@@ -5,7 +5,13 @@ Course: Applied Data Science minor
 Lecturers: Jeroen Vuurens, Tony Andrioli, Gerda in 't Veld, Ruud Vermeij, Brian de Keijzer
 
 
+
+<b> IN GENERAL: Write about where the input for what I did came from and where the output went. Make it interconnected, tell a story. Write markdown input before each jupyter file and markdown output after each file. For most important notebooks write it also in this portfolio. </b>
+
+
 ## Research project
+- see paper
+
 ### Task definition
 This portfolio summarizes my individual work and effort for the Nano project of the Applied Data Science minor at The Hague University.
 
@@ -21,7 +27,7 @@ To answer our research question in detail, we are going to focus on the followin
 4. How can the predictions of the model, graded by VSParticle’s user, be employed to improve the model over time?
 
 ### Evaluation
-In order to achieve our goal, we received a json file from VSParticle containing IDs of each run, parameters of the run, metadata of the image, resulting images of each step, and scores. The scores were our point of focus: they contain computer generated values that describe the image and evaluate how well each step of the program worked. The json file also included a user score, given manually by the user at the end of each run of the program. Both these scores were intended to be the input features for our thresholding algorithm prediction. However, early on, we had a change of approach: Instead of predicting the thresholding algorithm with input features like the user score, we focused on predicting the user score with other features. Then we could select the thresholding algorithm that scored the highest user score. Therefore we planned to create one model for each threshold method, with each model predicting the user score the threshold method would give.
+In order to achieve our goal, we received a json file from VSParticle containing IDs of each run, parameters of the run, metadata of the image, resulting images of each step, and scores. The scores were our main point of focus: they contain computer generated values that describe the image and evaluate how well each step of the program worked. The json file also included a user score, given manually by the user at the end of each run of the program. Both these scores were intended to be the input features for our thresholding algorithm prediction. However, early on, we had a change of approach: Instead of predicting the thresholding algorithm with the features **and** the user score, we focused on predicting the user score **with** the features. Then we could select the thresholding algorithm that scored the highest user score. Therefore we planned to create one model for each threshold method, with each model predicting the user score the threshold method would give.
 
 ### Conclusions
 Discuss the results, answer the research question etc. 
@@ -53,45 +59,6 @@ Please see the content and statement of accomplishement of each course here:
 - Introduction to Deep Learning with PyTorch: [course description](https://learn.datacamp.com/courses/introduction-to-deep-learning-with-pytorch), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/f4347d080bf8639635aaf765733df2ca7977c667) 
 
 
-### Machine Learning  
-In the lectures about Machine Learning, I learned about the following topics:
-- Regression and classification
-- Nearest neighbours
-- Loss and cost function
-- Linear regression
-- Logistic regression
-- Decision tree
-- Gradient descent
-- Training and validation
-- Evaluation
-- Data preprocessing
-- Features
-
-### Deep Learning 
-In the lectures about Deep Learning, I learned about the following topics:
-- Neural Network components
-- Data pipelines
-- Transfer learning
-- Embeddings
-- Training Neural Networks
-
-### Research  
-In the lectures about Research, I learned about the following topics:
-- ICT research methods
-- Research cycle
-- Writing research questions
-- Quality of research
-
-### Data Visualization  
-In the lectures about Data Visualization, I learned about the following topics:
-- Scales
-- Aesthetics
-- Readability
-
-
-
-
-
 
 
 
@@ -105,6 +72,8 @@ In the lectures about Data Visualization, I learned about the following topics:
 
 
 ## Domain Knowledge 
+- see paper
+
 ### Introduction to the subject field
 <i> Write introduction to the subject field with literature references </i>
 
@@ -142,14 +111,20 @@ VSParticle, a company based in Delft, has conducted a lot of research in the fie
 [3]: https://en.wikipedia.org/wiki/Scanning_electron_microscope
 [4]: https://imagej.net/Auto_Threshold
 [5]: https://en.wikipedia.org/wiki/Thresholding_(image_processing)
-[8]: https://vsparticle.com/
+[8]: https://vsparticle.com/ 3
 
-[6]: https://link.springer.com/article/10.1186/1472-6750-7-66
-[7]: https://journals.tubitak.gov.tr/chem/issues/kim-06-30-1/kim-30-1-1-0508-1.pdf
-[9]: https://www.sciencedirect.com/science/article/pii/B9780323299602000095
-[10]: https://ieeexplore.ieee.org/document/4310076?arnumber=4310076
-[11]: https://ieeexplore.ieee.org/document/366472?arnumber=366472
-[12]: https://www.britannica.com/science/nanoparticle
+[6]: https://link.springer.com/article/10.1186/1472-6750-7-66 2
+[7]: https://journals.tubitak.gov.tr/chem/issues/kim-06-30-1/kim-30-1-1-0508-1.pdf 1
+[9]: https://www.sciencedirect.com/science/article/pii/B9780323299602000095 4
+[10]: https://ieeexplore.ieee.org/document/4310076?arnumber=4310076 7
+[11]: https://ieeexplore.ieee.org/document/366472?arnumber=366472 6
+
+[12]: . https://www.britannica.com/science/nanoparticle 8
+[13]: . https://link.springer.com/chapter/10.1007/978-3-642-11216-4_12 5
+
+. = not included in text above yet.
+
+
 
 ### Terminology
 Used jargon in the field of nanoparticles and VSParticle's software is listed here:
@@ -160,8 +135,8 @@ Used jargon in the field of nanoparticles and VSParticle's software is listed he
 My research notes on the thresholding algorithms used by VSParticle can be found [here]().
 
 
-## Most relevant notebooks
-///
+## Most relevant contributions
+- also include ideas from me, not just notebooks
 
 
 ## List of all of my notebooks 
@@ -169,7 +144,8 @@ For a complete list of all notebooks I created during the project, please expand
 
 <details>
 <summary> Data preprocessing </summary>
-///
+	
+[N-Fold cross validation](k-fold cross validation.ipynb)
 </details>
 
 <details>
@@ -180,7 +156,7 @@ For a complete list of all notebooks I created during the project, please expand
 <details>
 <summary> Data explanation </summary>
 	
-- [Explanation of original json file]() 
+- [Explanation of original json file received from VSParticle]() 
 </details>
 
 <details>
@@ -199,6 +175,8 @@ For a complete list of all notebooks I created during the project, please expand
 <summary> Data visualization </summary>
 	
 - [Occurences of datapoints for each thresholding method]()
+- [Experiment: Feature combinations]()
+- [Experiment: Feature analysation]()
 </details>
 
 <details>
@@ -210,12 +188,15 @@ For a complete list of all notebooks I created during the project, please expand
 - [Linear/Polynomial Regression model: separation, border and more vs. user score (yen)]() 
 - [Multiclass Logistic Regression model: feature comparison (yen, with help from Yoran)]()
 - [Multiclass Logistic Regression model: separation, intensity, count (yen)]()
+- [Polynomial Regression model: Test set comparison]()
+- [Polynomial Regression experiment]()
 </details>
 
 <details>
 <summary> Contributions to group code </summary>
 
-- [Experiment #1: Random Oversampling function]()
+- [Experiment: Random Oversampling function]()
+- [Final model: Confusion matrix]()
 </details>
 
 
@@ -226,6 +207,9 @@ For a complete list of all notebooks I created during the project, please expand
 - [Week 4](): External presentation, created and presented by Yoran and me
 - [Week 8](): Internal presentation, created and presented by me
 - [Week 11](): Internal presentation, created and presented by me
+- [Week 14](): Internal presentation, created and presented by me
+- [Week 15](): Internal presentation, created and presented by me
+
 
 ### Research Plan
 My contributions to the research paper have been broadly spread out and significant. My contributions ranged from writing detailed chapters like the introduction and individual sub-question descriptions, to general layout. The research plan can be found [here]().
@@ -242,13 +226,14 @@ The following contents of the research plan have been made by me:
 My contributions to the research paper have been... The research paper can be found [here]().
 
 The following contributions to the research paper have been fully made by me:
+- Abstract
 - Introduction
+- Creation of file and structure
 
 The following contributions to the research paper have been partly made by me:
-- Creation of file and structure (group work with Oscar and Yoran)
-- Abstract
 
-Furthermore, the references 1-7 have been found and researched by me.
+
+Furthermore, the references 1-8 have been found and researched by me.
 
 
 ### Other efforts
@@ -258,9 +243,9 @@ Of course, I also kept my part of the Jira board up to date and documented my wo
 
 
 ## Diganostics of the learning process
-Our project group definitely learned how important it is to review and check other group member's work, as we realized a couple of weeks into the minor that the csv file we had been working with contained faulty values. Midway through the project the same thing happened and we noticed our assumptions about the dataset were not correct. We could have avoided this by reviewing each others code more in depth before working with the files. However, luckily the changes from the corrupted values were not too high so that the first interpretations we got were not heavily misleading. After updating our old models, which went fairly quick as we simply needed to change the file that the notebook was reading, we could continue where we left off.
+Our project group definitely learned how important it is to review and check other group member's work, as we realized a couple of weeks into the minor that the csv file we had been working with contained faulty values. Midway through the project the same thing happened and we noticed our assumptions about the dataset were not correct. We could have avoided this by reviewing each others code more in depth before working with the files. However, luckily the changes from the corrupted values were not too high so that the first interpretations we got were not heavily misleading. After updating our old models, which went fairly quick as we simply needed to change the file that the notebook was reading, we could continue where we left off. 
 
-Additionally, we should have cross-validated earlier on early models and experiments, not just the last one. We decided to focus on the models first but it turned out that not cross-validating from the beginning deferred our interpretations on the data. Luckily, we kept our options open until the final experiment in which we cross-validated our data, so we could re-interpret the data rather easily. cuz the conclusions we drew were all on the experiment , which was cross validated , we didn't need to rerun old ones.
+Additionally, we should have cross-validated earlier on early models and experiments, not just the last one. We decided to focus on the models first but it turned out that not cross-validating from the beginning deferred our interpretations on the data. Luckily, we kept our options open until the final experiment in which we cross-validated our data, so we could re-interpret the data rather easily. cuz the conclusions we drew were all on the experiment , which was cross validated , we didn't need to rerun old ones. but also the results were giving us higher hopes than we actually had in the end as results so we started looking into polynomial regression again, which we couldve done earlier if we cross-validated earlier.
 
 ...
 
@@ -270,7 +255,11 @@ As a User Experience Design student, I have only had short experiences with codi
 
 As I have not had much background knowledge on the topic, the minor started with a lot of new information to take in. It was difficult for me to get an idea of how to start. I quickly realised that even though I was not sure about things, I had to just do them in order to improve and learn. Since then, my understanding of how data science works and how to approach it grew constantly. 
 
+Include 360 degree feedback!
+
 ...
+
+
 
 
 
