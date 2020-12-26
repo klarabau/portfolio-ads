@@ -142,35 +142,17 @@ My research notes on the thresholding algorithms used by VSParticle can be found
 ## List of all of my notebooks 
 For a complete list of all notebooks I created during the project, please expand the sections below.
 
-
-
-<details>
-<summary> Data preprocessing </summary>
-
-- [N-Fold cross validation](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/k-fold%20cross%20validation.ipynb)
-</details>
-
-<details>
-<summary> Data exploration </summary>
-///
-</details>
-
 <details>
 <summary> Data explanation </summary>
 	
-- [Explanation of original json file received from VSParticle]() 
-</details>
-
-<details>
-<summary> Data cleansing </summary>
-///
+- [Explanation of scores (our features)]() 
 </details>
 
 <details>
 <summary> Data preparation </summary>
 
 - [Random Oversampling function]()
-- [K-fold cross validation]()
+- [N-Fold cross validation](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/k-fold%20cross%20validation.ipynb)
 </details>
 
 <details>
@@ -204,13 +186,13 @@ For a complete list of all notebooks I created during the project, please expand
 
 ## Communication 
 ### Presentations
-- [Week 2](): Internal presentation, created and presented by me 
-- [Week 3](): Internal presentation, created and presented by me 
-- [Week 4](): External presentation, created and presented by Yoran and me
-- [Week 8](): Internal presentation, created and presented by me
-- [Week 11](): Internal presentation, created and presented by me
-- [Week 14](): Internal presentation, created and presented by me
-- [Week 15](): Internal presentation, created and presented by me
+- [In week 2](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week2%20internal.pdf): Internal presentation, created and presented by me 
+- [In week 3](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week3%20internal.pdf): Internal presentation, created and presented by me 
+- [In week 4](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week4%20external.pdf): External presentation, created and presented by Yoran and me
+- [In week 8](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week8%20internal.pdf): Internal presentation, created and presented by me
+- [In week 11](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week11%20internal.pdf): Internal presentation, created and presented by me
+- [In week 14](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week14%20internal.pdf): Internal presentation, created and presented by me
+- [In week 15](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week15%20internal.pdf): Internal presentation, created and presented by me
 
 
 ### Research Plan
