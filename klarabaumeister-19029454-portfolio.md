@@ -132,7 +132,7 @@ Used jargon in the field of nanoparticles and VSParticle's software is listed he
 - Run: an image being processed once in each step of the software
 - ...
 
-My research notes on the thresholding algorithms used by VSParticle can be found [here]().
+My research notes on the thresholding algorithms used by VSParticle can be found [here](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Thresholding%20algorithms.ipynb).
 
 
 ## Most relevant contributions
@@ -145,13 +145,13 @@ For a complete list of all notebooks I created during the project, please expand
 <details>
 <summary> Data explanation </summary>
 	
-- [Explanation of scores (our features)]() 
+- [Explanation of original json dataset]() 
 </details>
 
 <details>
 <summary> Data preparation </summary>
 
-- [Random Oversampling function]()
+- [Random Oversampling (manually)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Random%20Oversampling%20Manually.ipynb)
 - [N-Fold cross validation](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/k-fold%20cross%20validation.ipynb)
 </details>
 
@@ -159,27 +159,28 @@ For a complete list of all notebooks I created during the project, please expand
 <summary> Data visualization </summary>
 	
 - [Occurences of datapoints for each thresholding method]()
-- [Experiment: Feature combinations]()
-- [Experiment: Feature analysation]()
+- [Experiment: Feature combinations visualization](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Experiment%20feature%20visualization.ipynb)
+- [Experiment: Feature analysation](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Experiment%20feature%20analysis.ipynb)
 </details>
 
 <details>
 	<summary> Machine Learning models </summary>
 	
-- [Linear/Polynomial Regression model: count vs. user score (full dataset)]()
-- [Linear/Polynomial Regression model: count vs. user score (yen)]() 
-- [Linear/Polynomial Regression model: separation vs. user score (yen)]() 
-- [Linear/Polynomial Regression model: separation, border and more vs. user score (yen)]() 
-- [Multiclass Logistic Regression model: feature comparison (yen, with help from Yoran)]()
-- [Multiclass Logistic Regression model: separation, intensity, count (yen)]()
-- [Polynomial Regression model: Test set comparison]()
-- [Polynomial Regression experiment]()
+- [Linear/Polynomial Regression model: count vs. user score (full dataset)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/LinReg%20count%20vs%20user%20score.ipynb)
+- [Linear/Polynomial Regression model: count vs. user score (yen)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/LinReg%20count%20vs%20user%20score%20(only%20yen).ipynb) 
+- [Linear/Polynomial Regression model: separation vs. user score (yen)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/LinReg%20separation%20vs%20user%20score%20(only%20yen).ipynb) 
+- [Linear/Polynomial Regression model: separation, border vs. user score (yen)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/LinReg%20separation%20and%20border%20vs%20user%20score%20(only%20yen).ipynb) 
+- [Multiclass Logistic Regression model: feature comparison (yen, with help from Yoran)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Multiclass%20logistic%20regression%20feature%20combinations.ipynb)
+- [Multiclass Logistic Regression model: separation, intensity, count (yen)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Multiclass%20logistic%20regression.ipynb)
+- [Logistic and Polynomial Regression models: Test set comparison](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Logistic%20%26%20Polynomial%20regression%20(compared%20to%20ground%20truth).ipynb)
+- [Polynomial Regression example](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Polynomial%20Regression%20example.ipynb)
+- [Polynomial Regression experiment](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Polynomial%20Regression%20experiment.ipynb)
 </details>
 
 <details>
 <summary> Contributions to group code </summary>
 
-- [Experiment: Random Oversampling function]()
+- [Experiment: Random Oversampling function](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Random%20Oversampling%20Function%20for%20experiment.ipynb)
 - [Final model: Confusion matrix]()
 </details>
 
@@ -193,7 +194,7 @@ For a complete list of all notebooks I created during the project, please expand
 - [In week 11](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week11%20internal.pdf): Internal presentation, created and presented by me
 - [In week 14](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week14%20internal.pdf): Internal presentation, created and presented by me
 - [In week 15](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week15%20internal.pdf): Internal presentation, created and presented by me
-- [In week 16](): Internal presentation, created and presented by me
+- [In week 16](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week16%20internal.pdf): Internal presentation, created and presented by me
 
 
 ### Research Plan
