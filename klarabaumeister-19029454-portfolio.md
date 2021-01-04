@@ -113,7 +113,6 @@ VSParticle, a company based in Delft, has conducted a lot of research in the fie
 [3]: https://en.wikipedia.org/wiki/Scanning_electron_microscope
 [4]: https://imagej.net/Auto_Threshold
 [5]: https://en.wikipedia.org/wiki/Thresholding_(image_processing)
-[8]: https://vsparticle.com/ 3
 [8]: https://vsparticle.com/ 
 
 [6]: https://link.springer.com/article/10.1186/1472-6750-7-66 
