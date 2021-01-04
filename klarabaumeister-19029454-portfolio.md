@@ -153,7 +153,8 @@ My research notes on the thresholding algorithms used by VSParticle can be found
 For a complete list of all notebooks I created during the project, please expand the sections below.
 
 #### Data explanation
-- [Explanation of original json dataset]() 
+- [Explanation of original json dataset](https://github.com/klarabau/portfolio-ads/blob/main/explanation/data%20explanation.md) 
+FIX IMAGES!
 
 #### Data preparation 
 - [Random Oversampling (manually)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Random%20Oversampling%20Manually.ipynb)
