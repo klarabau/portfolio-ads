@@ -10,7 +10,6 @@ Lecturers: Jeroen Vuurens, Tony Andrioli, Gerda in 't Veld, Ruud Vermeij, Brian 
 
 
 ## Research project
-- see paper
 
 ### Task definition
 This portfolio summarizes my individual work and effort for the Nano project of the Applied Data Science minor at The Hague University.
@@ -38,27 +37,31 @@ To make our group work as efficient and agile as possible, we used Scrum. We pla
 
 ## Courses
 ### DataCamp 
-All of the assigned courses on DataCamp have been fully completed by me. My DataCamp profile can be found [here.](https://www.datacamp.com/profile/19029454)
+All of the mandatory courses on DataCamp have been fully completed by me, as well as an assigned course on Deep Learning. My DataCamp profile can be found [here.](https://www.datacamp.com/profile/19029454) Please see the content and statement of accomplishement of each course below.
 
-Please see the content and statement of accomplishement of each course here:
-- Introduction to Python: [course description](https://learn.datacamp.com/courses/intro-to-python-for-data-science), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/731540b605e1dea88d26eafaf85f69099951552b)  
-- Intermediate Python: [course description](https://learn.datacamp.com/courses/intermediate-python), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/5a19587a42524b169ec6c005b6dbba22bb3b1432) 
-- Python Data Science Toolbox (Part 1): [course description](https://learn.datacamp.com/courses/python-data-science-toolbox-part-1), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/fffeaeabc04f0f84a0f01d5167b83d860a9ef8d7) 
-- Python Data Science Toolbox (Part 2): [course description](https://learn.datacamp.com/courses/python-data-science-toolbox-part-2), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/d748c33f42adbbcfb49f67218196f86a97241379) 
-- pandas Foundations: [course description](https://learn.datacamp.com/courses/pandas-foundations), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/3ae4299c06df02db4e40704f86613677f7d6e533) 
-- Introduction to Data Visualization in Python: [course description](https://learn.datacamp.com/courses/introduction-to-data-visualization-in-python), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/eb5ac6e59e25bd4890da76504e63230b789abc1b) 
-- Manipulating DataFrames with pandas: [course description](https://learn.datacamp.com/courses/introduction-to-data-visualization-in-python), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/8179c495982e57ac13a8f41416e31c31ef3d4c82) 
-- Data Types for Data Science in Python: [course description](https://learn.datacamp.com/courses/data-types-for-data-science-in-python), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/901955f550ac5650e92ba6dd3d86388b7d3d74ac) 
-- Cleaning Data in Python: [course description](https://learn.datacamp.com/courses/cleaning-data-in-python), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/90c108643c9ea6f31fae869f06be0be6426c456b) 
-- Preprocessing for Machine Learning in Python: [course description](https://learn.datacamp.com/courses/preprocessing-for-machine-learning-in-python), [statement of accomplishment]() 
-- Merging DataFrames with pandas: [course description](https://learn.datacamp.com/courses/merging-dataframes-with-pandas), [statement of accomplishment]() 
-- Exploratory Data Analysis in Python: [course description](https://learn.datacamp.com/courses/exploratory-data-analysis-in-python), [statement of accomplishment]() 
-- Hyperparameter Tuning in Python: [course description](https://learn.datacamp.com/courses/hyperparameter-tuning-in-python), [statement of accomplishment]() 
-- Writing Efficient Python Code: [course description](https://learn.datacamp.com/courses/writing-efficient-python-code), [statement of accomplishment]() 
-- Winning a Kaggle Competition in Python: [course description](https://learn.datacamp.com/courses/winning-a-kaggle-competition-in-python), [statement of accomplishment]() 
-- Introduction to Deep Learning with PyTorch: [course description](https://learn.datacamp.com/courses/introduction-to-deep-learning-with-pytorch), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/f4347d080bf8639635aaf765733df2ca7977c667) 
+Mandatory courses:
+- Introduction to Python: [course description](https://learn.datacamp.com/courses/intro-to-python-for-data-science) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/731540b605e1dea88d26eafaf85f69099951552b)  
+- Intermediate Python: [course description](https://learn.datacamp.com/courses/intermediate-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/5a19587a42524b169ec6c005b6dbba22bb3b1432) 
+- Python Data Science Toolbox (Part 1): [course description](https://learn.datacamp.com/courses/python-data-science-toolbox-part-1) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/fffeaeabc04f0f84a0f01d5167b83d860a9ef8d7) 
+- Python Data Science Toolbox (Part 2): [course description](https://learn.datacamp.com/courses/python-data-science-toolbox-part-2) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/d748c33f42adbbcfb49f67218196f86a97241379) 
+- pandas Foundations: [course description](https://learn.datacamp.com/courses/pandas-foundations) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/3ae4299c06df02db4e40704f86613677f7d6e533) 
+- Introduction to Data Visualization in Python: [course description](https://learn.datacamp.com/courses/introduction-to-data-visualization-in-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/eb5ac6e59e25bd4890da76504e63230b789abc1b) 
+- Manipulating DataFrames with pandas: [course description](https://learn.datacamp.com/courses/introduction-to-data-visualization-in-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/8179c495982e57ac13a8f41416e31c31ef3d4c82) 
+- Data Types for Data Science in Python: [course description](https://learn.datacamp.com/courses/data-types-for-data-science-in-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/901955f550ac5650e92ba6dd3d86388b7d3d74ac) 
+- Cleaning Data in Python: [course description](https://learn.datacamp.com/courses/cleaning-data-in-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/90c108643c9ea6f31fae869f06be0be6426c456b) 
+- Preprocessing for Machine Learning in Python: [course description](https://learn.datacamp.com/courses/preprocessing-for-machine-learning-in-python) | [statement of accomplishment]() 
 
 
+Not mandatory courses:
+- Introduction to Deep Learning with PyTorch: [course description](https://learn.datacamp.com/courses/introduction-to-deep-learning-with-pytorch) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/f4347d080bf8639635aaf765733df2ca7977c667) 
+
+
+DELETE: _________________________________________________________________
+- Merging DataFrames with pandas: [course description](https://learn.datacamp.com/courses/merging-dataframes-with-pandas) | [statement of accomplishment]() 
+- Exploratory Data Analysis in Python: [course description](https://learn.datacamp.com/courses/exploratory-data-analysis-in-python) | [statement of accomplishment]() 
+- Hyperparameter Tuning in Python: [course description](https://learn.datacamp.com/courses/hyperparameter-tuning-in-python) | [statement of accomplishment]() 
+- Writing Efficient Python Code: [course description](https://learn.datacamp.com/courses/writing-efficient-python-code) | [statement of accomplishment]() 
+- Winning a Kaggle Competition in Python: [course description](https://learn.datacamp.com/courses/winning-a-kaggle-competition-in-python) | [statement of accomplishment]() 
 
 
 
@@ -72,7 +75,6 @@ Please see the content and statement of accomplishement of each course here:
 
 
 ## Domain Knowledge 
-- see paper
 
 ### Introduction to the subject field
 <i> Write introduction to the subject field with literature references </i>
@@ -112,17 +114,26 @@ VSParticle, a company based in Delft, has conducted a lot of research in the fie
 [4]: https://imagej.net/Auto_Threshold
 [5]: https://en.wikipedia.org/wiki/Thresholding_(image_processing)
 [8]: https://vsparticle.com/ 3
+[8]: https://vsparticle.com/ 
 
-[6]: https://link.springer.com/article/10.1186/1472-6750-7-66 2
-[7]: https://journals.tubitak.gov.tr/chem/issues/kim-06-30-1/kim-30-1-1-0508-1.pdf 1
-[9]: https://www.sciencedirect.com/science/article/pii/B9780323299602000095 4
-[10]: https://ieeexplore.ieee.org/document/4310076?arnumber=4310076 7
-[11]: https://ieeexplore.ieee.org/document/366472?arnumber=366472 6
+[6]: https://link.springer.com/article/10.1186/1472-6750-7-66 
+[7]: https://journals.tubitak.gov.tr/chem/issues/kim-06-30-1/kim-30-1-1-0508-1.pdf 
+[9]: https://www.sciencedirect.com/science/article/pii/B9780323299602000095 
+[10]: https://ieeexplore.ieee.org/document/4310076?arnumber=4310076 
+[11]: https://ieeexplore.ieee.org/document/366472?arnumber=366472 
 
-[12]: . https://www.britannica.com/science/nanoparticle 8
-[13]: . https://link.springer.com/chapter/10.1007/978-3-642-11216-4_12 5
+[12]: https://www.britannica.com/science/nanoparticle 
+[13]: https://link.springer.com/chapter/10.1007/978-3-642-11216-4_12 
 
-. = not included in text above yet.
+DELETE: _________________________________________________________________
+8=rp3
+6=rp2
+7=rp1
+9=rp4
+10=rp7
+11=rp6
+12=rp8 (not included in text above!)
+13=rp5 (not included in text above!)
 
 
 
@@ -237,9 +248,7 @@ Additionally, we should have cross-validated earlier on early models and experim
 ## Evaluation using STARR
 As a User Experience Design student, I have only had short experiences with coding and programming so far. In order to extend them and learn more about statistics and data visualization, I chose this minor.
 
-As I have not had much background knowledge on the topic, the minor started with a lot of new information to take in. It was difficult for me to get an idea of how to start. I quickly realised that even though I was not sure about things, I had to just do them in order to improve and learn. Since then, my understanding of how data science works and how to approach it grew constantly. 
-
-Include 360 degree feedback!
+As I have not had much background knowledge on the topic, the minor started with a lot of new information to take in. It was difficult for me to get an idea of how to start. I quickly realised that even though I was not sure about things, I had to just do them in order to improve and learn. This also mainly reflected from the 360 degree feedback given to me, so I quickly stopped shying away from coding and since then, my understanding of how data science works and how to approach it grew constantly. 
 
 ...
 
