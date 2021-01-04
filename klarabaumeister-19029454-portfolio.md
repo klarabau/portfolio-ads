@@ -152,30 +152,18 @@ My research notes on the thresholding algorithms used by VSParticle can be found
 ## List of all of my notebooks 
 For a complete list of all notebooks I created during the project, please expand the sections below.
 
-<details>
-<summary> Data explanation </summary>
-	
+#### Data explanation
 - [Explanation of original json dataset]() 
-</details>
 
-<details>
-<summary> Data preparation </summary>
-
+#### Data preparation 
 - [Random Oversampling (manually)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Random%20Oversampling%20Manually.ipynb)
 - [N-Fold cross validation](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/k-fold%20cross%20validation.ipynb)
-</details>
 
-<details>
-<summary> Data visualization </summary>
-	
-- [Occurences of datapoints for each thresholding method]()
+#### Data visualization 
 - [Experiment: Feature combinations visualization](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Experiment%20feature%20visualization.ipynb)
 - [Experiment: Feature analysation](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Experiment%20feature%20analysis.ipynb)
-</details>
 
-<details>
-	<summary> Machine Learning models </summary>
-	
+#### Machine Learning models 
 - [Linear/Polynomial Regression model: count vs. user score (full dataset)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/LinReg%20count%20vs%20user%20score.ipynb)
 - [Linear/Polynomial Regression model: count vs. user score (yen)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/LinReg%20count%20vs%20user%20score%20(only%20yen).ipynb) 
 - [Linear/Polynomial Regression model: separation vs. user score (yen)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/LinReg%20separation%20vs%20user%20score%20(only%20yen).ipynb) 
@@ -185,14 +173,10 @@ For a complete list of all notebooks I created during the project, please expand
 - [Logistic and Polynomial Regression models: Test set comparison](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Logistic%20%26%20Polynomial%20regression%20(compared%20to%20ground%20truth).ipynb)
 - [Polynomial Regression example](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Polynomial%20Regression%20example.ipynb)
 - [Polynomial Regression experiment](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Polynomial%20Regression%20experiment.ipynb)
-</details>
 
-<details>
-<summary> Contributions to group code </summary>
-
+#### Contributions to group code 
 - [Experiment: Random Oversampling function](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Random%20Oversampling%20Function%20for%20experiment.ipynb)
 - [Final model: Confusion matrix]()
-</details>
 
 
 ## Communication 
