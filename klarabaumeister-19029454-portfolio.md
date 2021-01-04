@@ -48,8 +48,8 @@ Please see the content and statement of accomplishement of each course here:
 - pandas Foundations: [course description](https://learn.datacamp.com/courses/pandas-foundations), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/3ae4299c06df02db4e40704f86613677f7d6e533) 
 - Introduction to Data Visualization in Python: [course description](https://learn.datacamp.com/courses/introduction-to-data-visualization-in-python), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/eb5ac6e59e25bd4890da76504e63230b789abc1b) 
 - Manipulating DataFrames with pandas: [course description](https://learn.datacamp.com/courses/introduction-to-data-visualization-in-python), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/8179c495982e57ac13a8f41416e31c31ef3d4c82) 
-- Data Types for Data Science in Python: [course description](https://learn.datacamp.com/courses/data-types-for-data-science-in-python), [statement of accomplishment]() 
-- Cleaning Data in Python: [course description](https://learn.datacamp.com/courses/cleaning-data-in-python), [statement of accomplishment]() 
+- Data Types for Data Science in Python: [course description](https://learn.datacamp.com/courses/data-types-for-data-science-in-python), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/901955f550ac5650e92ba6dd3d86388b7d3d74ac) 
+- Cleaning Data in Python: [course description](https://learn.datacamp.com/courses/cleaning-data-in-python), [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/90c108643c9ea6f31fae869f06be0be6426c456b) 
 - Preprocessing for Machine Learning in Python: [course description](https://learn.datacamp.com/courses/preprocessing-for-machine-learning-in-python), [statement of accomplishment]() 
 - Merging DataFrames with pandas: [course description](https://learn.datacamp.com/courses/merging-dataframes-with-pandas), [statement of accomplishment]() 
 - Exploratory Data Analysis in Python: [course description](https://learn.datacamp.com/courses/exploratory-data-analysis-in-python), [statement of accomplishment]() 
@@ -193,6 +193,7 @@ For a complete list of all notebooks I created during the project, please expand
 - [In week 11](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week11%20internal.pdf): Internal presentation, created and presented by me
 - [In week 14](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week14%20internal.pdf): Internal presentation, created and presented by me
 - [In week 15](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week15%20internal.pdf): Internal presentation, created and presented by me
+- [In week 16](): Internal presentation, created and presented by me
 
 
 ### Research Plan
@@ -200,22 +201,20 @@ My contributions to the research paper have been broadly spread out and signific
 
 The following contents of the research plan have been made by me:
 - Introduction
-- Literature review
 - Formulation of the research question 
 - Formulation of sub-questions (with Oscar)
 - Elaboration on sub-questions two, three and four 
-- Re-writing sub-question 4, as we changed our approach after group members left
+- Minor changes in the elaboration of sub-question 4, as we changed our approach after group members left
 
 ### Research Paper
 My contributions to the research paper have been... The research paper can be found [here]().
 
 The following contributions to the research paper have been fully made by me:
+- Creation of file and structure
 - Abstract
 - Introduction
-- Creation of file and structure
 
 The following contributions to the research paper have been partly made by me:
-
 
 Furthermore, the references 1-8 have been found and researched by me.
 
