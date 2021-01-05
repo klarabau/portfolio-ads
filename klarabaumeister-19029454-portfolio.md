@@ -5,10 +5,6 @@ Course: Applied Data Science minor
 Lecturers: Jeroen Vuurens, Tony Andrioli, Gerda in 't Veld, Ruud Vermeij, Brian de Keijzer
 
 
-
-<b> IN GENERAL: Write about where the input for what I did came from and where the output went. Make it interconnected, tell a story. Write markdown input before each jupyter file and markdown output after each file. For most important notebooks write it also in this portfolio. </b>
-
-
 ## Research project
 
 ### Task definition
@@ -51,26 +47,8 @@ Mandatory courses:
 - Cleaning Data in Python: [course description](https://learn.datacamp.com/courses/cleaning-data-in-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/90c108643c9ea6f31fae869f06be0be6426c456b) 
 - Preprocessing for Machine Learning in Python: [course description](https://learn.datacamp.com/courses/preprocessing-for-machine-learning-in-python) | [statement of accomplishment]() 
 
-
 Not mandatory courses:
 - Introduction to Deep Learning with PyTorch: [course description](https://learn.datacamp.com/courses/introduction-to-deep-learning-with-pytorch) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/f4347d080bf8639635aaf765733df2ca7977c667) 
-
-
-DELETE: _________________________________________________________________
-- Merging DataFrames with pandas: [course description](https://learn.datacamp.com/courses/merging-dataframes-with-pandas) | [statement of accomplishment]() 
-- Exploratory Data Analysis in Python: [course description](https://learn.datacamp.com/courses/exploratory-data-analysis-in-python) | [statement of accomplishment]() 
-- Hyperparameter Tuning in Python: [course description](https://learn.datacamp.com/courses/hyperparameter-tuning-in-python) | [statement of accomplishment]() 
-- Writing Efficient Python Code: [course description](https://learn.datacamp.com/courses/writing-efficient-python-code) | [statement of accomplishment]() 
-- Winning a Kaggle Competition in Python: [course description](https://learn.datacamp.com/courses/winning-a-kaggle-competition-in-python) | [statement of accomplishment]() 
-
-
-
-
-
-
-
-
-
 
 
 
@@ -146,15 +124,13 @@ My research notes on the thresholding algorithms used by VSParticle can be found
 
 
 ## Most relevant contributions
-- also include ideas from me, not just notebooks
-
+- filler
 
 ## List of all of my notebooks 
 For a complete list of all notebooks I created during the project, please expand the sections below.
 
 #### Data explanation
 - [Explanation of original json dataset](https://github.com/klarabau/portfolio-ads/blob/main/explanation/data%20explanation.md) 
-FIX IMAGES!
 
 #### Data preparation 
 - [Random Oversampling (manually)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Random%20Oversampling%20Manually.ipynb)
@@ -209,10 +185,11 @@ The following contributions to the research paper have been fully made by me:
 - Creation of file and structure
 - Abstract
 - Introduction
+- Chapter 2.4: Model comparison
 
 The following contributions to the research paper have been partly made by me:
 
-Furthermore, the references 1-8 have been found and researched by me.
+Furthermore, the references 1-10 have been found and researched by me.
 
 
 ### Other efforts

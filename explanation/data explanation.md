@@ -15,7 +15,7 @@ As visualized above, there are six scores calculated for every step, that are st
 
 The scores are calculated for each possible value for each step, not just the selected ones. However, scores for threshold methods that are not selected in a run are not valuable to our project, since the user score is only calculated for each run, meaning it only relates to the selected parameters. 
 
-In the image below, I visualized the structure of the scores section more in-depth, as well as marked a possible walkthrough of the program in red. Again, not every score is displayed here, to not make the image overly lengthy, as they repeat themselves for every possibility of every step. They are indiciated with a small grey dot before the name of the step.
+In the image below, I visualized the structure of the scores section more in-depth. Again, not every score is displayed here, to not make the image overly lengthy, as they repeat themselves for every possibility of every step. They are indiciated with a small grey dot before the name of the step. The user score, as already mentioned, only relates to the *selected* combination, for example in a random run: invert=true, smooth=0.050, threshold=yen.
 
 ![](https://github.com/klarabau/portfolio-ads/blob/main/explanation/scores%20visual.png)
 
