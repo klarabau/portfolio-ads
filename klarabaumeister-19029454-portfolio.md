@@ -62,43 +62,23 @@ To see where I informed myself about the topic and what information I gathered, 
 
 <details><summary>Nanoparticles</summary>
 
-Nanoparticles are particles ranging from one single atom to atomic clusters or bulk crystals of 100nm or less ([Wikipedia][1], [Nanoparticle][12]). They have proved to be of high significance in various fields of work, such as medicine, engineering and chemistry, for products like quantum computers, chemical sensors and photochemical devices such as flat panel displays, among others ([Analysis of Nanoparticle Transmission Electron Microscopy Data...][7], [Nanoparticle][12]).
+Nanoparticles are particles ranging from one single atom to atomic clusters or bulk crystals of 100nm or less ([source][1], [source][12]). They have proved to be of high significance in various fields of work, such as medicine, engineering and chemistry, for products like quantum computers, chemical sensors and photochemical devices such as flat panel displays, among others ([source][7], [source][12]).
 	
-For analysation and documentation, microscopic images of the particles are often saved and used for further research. There are two ways of making the particles visible to the human eye: SEM and TEM. SEM, short for Scanning Electron Microscope, produces images of a sample by scanning the surface with a focused beam of electrons. The electron beam is then scanned in a raster scan pattern, and the position of the beam is combined with the intensity of the detected signal to produce an image ([Wikipedia][2]). TEM, which stands for  Transmission Electron Microscopy, forms an image by transmitting a beam of electrons through a specimen. The specimen is most often an ultrathin section less than 100nm thick, or a suspension on a grid ([Electron Microscopy Techniques ...][9]).
+For analysation and documentation, microscopic images of the particles are often saved and used for further research. There are two ways of making the particles visible to the human eye: SEM and TEM. SEM, short for Scanning Electron Microscope, produces images of a sample by scanning the surface with a focused beam of electrons. The electron beam is then scanned in a raster scan pattern, and the position of the beam is combined with the intensity of the detected signal to produce an image ([source][2]). TEM, which stands for  Transmission Electron Microscopy, forms an image by transmitting a beam of electrons through a specimen. The specimen is most often an ultrathin section less than 100nm thick, or a suspension on a grid ([source][9]).
 </details>
 
 <details><summary>Thresholding</summary>
-
-Thresholding is differenciated into global and local thresholding methods. Global thresholding focuses on the image histogram, analyzing its peaks, valleys and curves, while local thresholding computes a threshold for each pixel and turns it either black or white ([ImageJ][4]).
-
-Algorithms used in thresholding can be saved for repeated use as thresholding methods. Most methods use image intensity li, j to determine whether a pixel turns white or black. If li, j is smaller than a fixed constant T, the pixel turns black ([Wikipedia][5]). There are multiple methods that have been proved to be very efficient, for example Otsu([A Threshold Selection Method from Gray-Level Histograms][10]), Yen([A new criterion for automatic multilevel thresholding.][11]) and many more([ImageJ][4]).
-</details>
-
-<details><summary>Image processing with nanoparticles</summary>
 	
-F. Li et al. used a multiple thresholding method to classify nanoparticle images into three types: bright, dark and background. This helped them achieve pixel classification and shows that the thresholding step is very important when working with nanoparticle images ([High content image analysis...][6]). 
+Thresholding is the process of turning a grayscale / colored image into a binary one with either black or white pixels. It is differenciated into global and local thresholding methods: Global thresholding focuses on the image histogram, analyzing its peaks, valleys and curves, while local thresholding computes a threshold for each pixel and turns it either black or white ([source][4]).
+
+Algorithms used in thresholding can be saved for repeated use as thresholding methods. Most methods use image intensity li, j to determine whether a pixel turns white or black. If li, j is smaller than a fixed constant T, the pixel turns black ([source][5]). There are multiple methods that have been proved to be very efficient, for example Otsu([source][10]), Yen([source][11]) and many more([source][4]).
+
+Regarding the work with nanoparticles, F. Li et al. used a multiple thresholding method to classify nanoparticle images into three types: bright, dark and background. This helped them achieve pixel classification and shows that the thresholding step is very important when working with nanoparticle images ([source][6]). 
 </details>
 
 <details><summary>VSParticle</summary>
 	
 VSParticle, a company based in Delft, has conducted a lot of research in the field of nanoparticles over the past years. Calculating the size of nanoparticles using microscopic images is one branch they focus their work on. ([VSParticle][8]). 
-</details>
-
-<details><summary>Classification models</summary>
-
-**Logistic regression** allows for classification into binary or multiple categories. It is based on linear regression models and uses a linear decision boundary. However, instead of linear regression models aiming to predict continuous values, logistic regression adds a logarithmic scale in order to predict categories instead([13][]): h_θ (x)=logit(θ^T∙x).
-A logistic regression model brings the advantage of being able to deal with continuous-level predictor variables, similarly to the generated scores being used as features in this project. ([14][]) Therefore, especially multivariate logistic regression is relevant to this project, because even if the 10 classes we aim to predict (user scores ranging from 1 to 10) were to be collapsed, keeping a high number of classes leads to a more detailed distinction in the prediction of user scores, which is what we aim for.
-![](img)
-
-A **Decision Tree** aims to split the classes as purely as possible. It applies a sine curve with a set of “if-then-else” decision rules, which lead to a tree-like structure. The data is broken down into smaller subsets with each step.([15][]) Decision trees are beneficial in a sense that they are able of interpreting the model and identifying important features, which again can be useful to the design of further research.([16][]) Hence, a decision tree model can show a lot of potential for our project, especially for interpreting the data and recognizing important features to employ.
-![](img)
-
-**Random forest** is a so-called ensemble method which combines multiple decision tree models. Each decision tree is trained on a random subset of the training set with its own random subset of features, then it combines the outputs of the trees into a final output. Same as a decision tree, it can be helpful to transform the data into useful signals and find effective parameters. However, a random forest leverages the power of multiple decision trees and therefore, contrary to a single decision tree, does not depend on any specific set of features due to the random selection of such. This leads to a better generalization over the data, which is beneficial to our project to discourage overfitting, especially considering our rather small dataset. [17][]
-![](img)
-
-A **multilayer perceptron** is a type of artificial neural network.[18][] As most neural networks, it aims to mimic the neurological structure of a brain through multiple interconnected layers. The features in the input layer are fed forward and transformed in one or multiple hidden layers and then passed on to the output layer, where the hidden layers extract useful features, and the output layer classifies them (Figure 4). The connections between the layers apply weights to the features and are represented by a matrix.[19][][20][][21][] Even though models like these are especially beneficial for pattern recognition tasks in images or audio, it also shows potential for this project’s purpose because of the automatic feature-extraction through the hidden layer(s). Specifically, a multilayer perceptron with one single hidden layer and 100 nodes could prove to be useful for our problem.
-![](img)
-
 </details>
 
 [1]: https://en.wikipedia.org/wiki/Nanoparticle
@@ -115,24 +95,20 @@ A **multilayer perceptron** is a type of artificial neural network.[18][] As mos
 [11]: https://ieeexplore.ieee.org/document/366472?arnumber=366472 
 [12]: https://www.britannica.com/science/nanoparticle 
 
-[13]: https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.106.682658 
-[14]: https://www.jstor.org/stable/352104?casa_token=j7bD6ebNgZsAAAAA%3A8D4zjOCRVw6h12GyX3M9A7pQ96ulbCiGsDysxjJZ_lI5tQ7GQpHvcBzFYsGmrewaqSR2bnOOuLRZz2eMuU0iKY0m-EQBes-Zc5gNB-REHmP82-zf1g&seq=6#metadata_info_tab_contents
-[15]: https://chiragsehra42.medium.com/decision-trees-explained-easily-28f23241248
-[16]: https://onlinelibrary.wiley.com/doi/epdf/10.1002/cem.873
-[17]: https://www.analyticsvidhya.com/blog/2020/05/decision-tree-vs-random-forest-algorithm/
-[18]: https://www.researchgate.net/profile/Youssef_Ghanou2/publication/292996667_Multilayer_Perceptron_Architecture_Optimization_and_Training/links/58318a1208ae138f1c076f8a/Multilayer-Perceptron-Architecture-Optimization-and-Training.pdf
-[19]: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.608.2530&rep=rep1&type=pdf
-[20]: http://www.informatica.si/ojs-2.4.3/index.php/informatica/article/view/1595
-[21]: https://www.biomedres.info/biomedical-research/analysis-of-multilayer-perceptron-machine-learning-approach-in-classifying-protein-secondary-structures.html
-
 
 ### Terminology
 Used jargon in the field of nanoparticles and VSParticle's software is listed here:
 - Thresholding: method for turning a grayscale / colored images into binary images
 - Run: an image being processed once in each step of the software
-- ...
+- SEM
+- TEM
+- 
 
 My research notes on the thresholding algorithms used by VSParticle can be found [here](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Thresholding%20algorithms.ipynb).
+
+### Explanation
+- [Explanation of original json dataset](https://github.com/klarabau/portfolio-ads/blob/main/explanation/data%20explanation.md) 
+- [Explanation of popular classification models]()
 
 
 ## Most relevant contributions
@@ -141,8 +117,7 @@ My research notes on the thresholding algorithms used by VSParticle can be found
 ## List of all of my notebooks 
 For a complete list of all notebooks I created during the project, please expand the sections below.
 
-#### Data explanation
-- [Explanation of original json dataset](https://github.com/klarabau/portfolio-ads/blob/main/explanation/data%20explanation.md) 
+
 
 #### Data preparation 
 - [Random Oversampling (manually)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Random%20Oversampling%20Manually.ipynb)
