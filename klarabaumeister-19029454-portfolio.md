@@ -100,15 +100,15 @@ VSParticle, a company based in Delft, has conducted a lot of research in the fie
 Used jargon in the field of nanoparticles and VSParticle's software is listed here:
 - Thresholding: method for turning a grayscale / colored images into binary images
 - Run: an image being processed once in each step of the software
-- SEM
-- TEM
-- 
+- SEM: 
+- TEM: 
+- ...
 
 My research notes on the thresholding algorithms used by VSParticle can be found [here](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Thresholding%20algorithms.ipynb).
 
 ### Explanation
 - [Explanation of original json dataset](https://github.com/klarabau/portfolio-ads/blob/main/explanation/data%20explanation.md) 
-- [Explanation of popular classification models]()
+- [Explanation of popular classification models](https://github.com/klarabau/portfolio-ads/blob/main/explanation/models%20explanation.md)
 
 
 ## Most relevant contributions
