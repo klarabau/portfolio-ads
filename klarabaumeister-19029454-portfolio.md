@@ -6,7 +6,6 @@ Lecturers: Jeroen Vuurens, Tony Andrioli, Gerda in 't Veld, Ruud Vermeij, Brian 
 
 
 ## Research project
-
 ### Task definition
 This portfolio summarizes my individual work and effort for the Nano project of the Applied Data Science minor at The Hague University.
 
@@ -31,31 +30,10 @@ Discuss the results, answer the research question etc.
 To make our group work as efficient and agile as possible, we used Scrum. We planned sprint periods of two weeks, including daily standups and retrospectives at the end of each sprint. In order to get an overview of everybody's work progress, we used the platform Jira to create a Scrumboard. All of our completed issues from the sprints can be found [here](https://vsparticle-nano.atlassian.net/jira/software/c/projects/NANO/issues).
 
 
-## Courses
-### DataCamp 
-All of the mandatory courses on DataCamp have been fully completed by me, as well as an assigned course on Deep Learning. My DataCamp profile can be found [here.](https://www.datacamp.com/profile/19029454) Please see the content and statement of accomplishement of each course below.
-
-Mandatory courses:
-- Introduction to Python: [course description](https://learn.datacamp.com/courses/intro-to-python-for-data-science) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/731540b605e1dea88d26eafaf85f69099951552b)  
-- Intermediate Python: [course description](https://learn.datacamp.com/courses/intermediate-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/5a19587a42524b169ec6c005b6dbba22bb3b1432) 
-- Python Data Science Toolbox (Part 1): [course description](https://learn.datacamp.com/courses/python-data-science-toolbox-part-1) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/fffeaeabc04f0f84a0f01d5167b83d860a9ef8d7) 
-- Python Data Science Toolbox (Part 2): [course description](https://learn.datacamp.com/courses/python-data-science-toolbox-part-2) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/d748c33f42adbbcfb49f67218196f86a97241379) 
-- pandas Foundations: [course description](https://learn.datacamp.com/courses/pandas-foundations) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/3ae4299c06df02db4e40704f86613677f7d6e533) 
-- Introduction to Data Visualization in Python: [course description](https://learn.datacamp.com/courses/introduction-to-data-visualization-in-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/eb5ac6e59e25bd4890da76504e63230b789abc1b) 
-- Manipulating DataFrames with pandas: [course description](https://learn.datacamp.com/courses/introduction-to-data-visualization-in-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/8179c495982e57ac13a8f41416e31c31ef3d4c82) 
-- Data Types for Data Science in Python: [course description](https://learn.datacamp.com/courses/data-types-for-data-science-in-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/901955f550ac5650e92ba6dd3d86388b7d3d74ac) 
-- Cleaning Data in Python: [course description](https://learn.datacamp.com/courses/cleaning-data-in-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/90c108643c9ea6f31fae869f06be0be6426c456b) 
-- Preprocessing for Machine Learning in Python: [course description](https://learn.datacamp.com/courses/preprocessing-for-machine-learning-in-python) | [statement of accomplishment]() 
-
-Not mandatory courses:
-- Introduction to Deep Learning with PyTorch: [course description](https://learn.datacamp.com/courses/introduction-to-deep-learning-with-pytorch) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/f4347d080bf8639635aaf765733df2ca7977c667) 
-
-
 
 ## Domain Knowledge 
-
 ### Introduction to the subject field
-<i> Write introduction to the subject field with literature references </i>
+The study of nanoparticles continues to be of great significance in various fields of work, including calculating their sizes from microscopic images for further research, as the Dutch company VSParticle does. Our project focuses on finding a Machine Learning model that predicts the optimal threshold method to use in the image processing software created by VSParticle.
 
 ### Literature research
 To see where I informed myself about the topic and what information I gathered, please expand the sections below.
@@ -104,30 +82,48 @@ Used jargon in the field of nanoparticles and VSParticle's software is listed he
 - TEM: 
 - ...
 
-My research notes on the thresholding algorithms used by VSParticle can be found [here](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Thresholding%20algorithms.ipynb).
-
-### Explanation
+### Explanations
 - [Explanation of original json dataset](https://github.com/klarabau/portfolio-ads/blob/main/explanation/data%20explanation.md) 
 - [Explanation of popular classification models](https://github.com/klarabau/portfolio-ads/blob/main/explanation/models%20explanation.md)
+- [Explanation of thresholding algorithms used by VSParticle (notes)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Thresholding%20algorithms.ipynb)
+
+
+
+## Courses
+### DataCamp 
+All of the mandatory courses on DataCamp have been fully completed by me, as well as an assigned course on Deep Learning. My DataCamp profile can be found [here.](https://www.datacamp.com/profile/19029454) Please see the content and statement of accomplishement of each course below.
+
+Mandatory courses:
+- Introduction to Python: [course description](https://learn.datacamp.com/courses/intro-to-python-for-data-science) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/731540b605e1dea88d26eafaf85f69099951552b)  
+- Intermediate Python: [course description](https://learn.datacamp.com/courses/intermediate-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/5a19587a42524b169ec6c005b6dbba22bb3b1432) 
+- Python Data Science Toolbox (Part 1): [course description](https://learn.datacamp.com/courses/python-data-science-toolbox-part-1) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/fffeaeabc04f0f84a0f01d5167b83d860a9ef8d7) 
+- Python Data Science Toolbox (Part 2): [course description](https://learn.datacamp.com/courses/python-data-science-toolbox-part-2) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/d748c33f42adbbcfb49f67218196f86a97241379) 
+- pandas Foundations: [course description](https://learn.datacamp.com/courses/pandas-foundations) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/3ae4299c06df02db4e40704f86613677f7d6e533) 
+- Introduction to Data Visualization in Python: [course description](https://learn.datacamp.com/courses/introduction-to-data-visualization-in-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/eb5ac6e59e25bd4890da76504e63230b789abc1b) 
+- Manipulating DataFrames with pandas: [course description](https://learn.datacamp.com/courses/introduction-to-data-visualization-in-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/8179c495982e57ac13a8f41416e31c31ef3d4c82) 
+- Data Types for Data Science in Python: [course description](https://learn.datacamp.com/courses/data-types-for-data-science-in-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/901955f550ac5650e92ba6dd3d86388b7d3d74ac) 
+- Cleaning Data in Python: [course description](https://learn.datacamp.com/courses/cleaning-data-in-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/90c108643c9ea6f31fae869f06be0be6426c456b) 
+- Preprocessing for Machine Learning in Python: [course description](https://learn.datacamp.com/courses/preprocessing-for-machine-learning-in-python) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/cf7346824ad47e554b657c96c429478a4df49c9d) 
+
+Not mandatory courses:
+- Introduction to Deep Learning with PyTorch: [course description](https://learn.datacamp.com/courses/introduction-to-deep-learning-with-pytorch) | [statement of accomplishment](https://www.datacamp.com/statement-of-accomplishment/course/f4347d080bf8639635aaf765733df2ca7977c667) 
+
 
 
 ## Most relevant contributions
-- filler
+- 
 
 ## List of all of my notebooks 
-For a complete list of all notebooks I created during the project, please expand the sections below.
 
-
-
-#### Data preparation 
+### Data preparation 
 - [Random Oversampling (manually)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Random%20Oversampling%20Manually.ipynb)
 - [N-Fold cross validation](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/k-fold%20cross%20validation.ipynb)
 
-#### Data visualization 
+### Data visualization 
 - [Experiment: Feature combinations visualization](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Experiment%20feature%20visualization.ipynb)
 - [Experiment: Feature analysation](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Experiment%20feature%20analysis.ipynb)
 
-#### Machine Learning models 
+### Machine Learning models 
 - [Linear/Polynomial Regression model: count vs. user score (full dataset)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/LinReg%20count%20vs%20user%20score.ipynb)
 - [Linear/Polynomial Regression model: count vs. user score (yen)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/LinReg%20count%20vs%20user%20score%20(only%20yen).ipynb) 
 - [Linear/Polynomial Regression model: separation vs. user score (yen)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/LinReg%20separation%20vs%20user%20score%20(only%20yen).ipynb) 
@@ -138,9 +134,11 @@ For a complete list of all notebooks I created during the project, please expand
 - [Polynomial Regression example](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Polynomial%20Regression%20example.ipynb)
 - [Polynomial Regression experiment](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Polynomial%20Regression%20experiment.ipynb)
 
-#### Contributions to group code 
+### Contributions to group code 
 - [Experiment: Random Oversampling function](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Random%20Oversampling%20Function%20for%20experiment.ipynb)
 - [Final model: Confusion matrix]()
+- [Final model: Feature selection (correlation check)]()
+
 
 
 ## Communication 
@@ -163,22 +161,21 @@ The following contents of the research plan have been made by me:
 - Formulation of the research question 
 - Formulation of sub-questions (with Oscar)
 - Elaboration on sub-questions two, three and four 
-- Minor changes in the elaboration of sub-question 4, as we changed our approach after group members left
+- Changes in the elaboration of sub-question 4, as we changed our approach after group members left
 
 ### Research Paper
-My contributions to the research paper have been... The research paper can be found [here]().
+At the point of handing in this portfolio, the research paper has not been 100% finished yet. So far, my contributions to the research paper have been... The research paper (as its current state) can be found [here]().
 
 The following contributions to the research paper have been fully made by me:
 - Creation of file and structure
 - Abstract
 - Introduction
 - Chapter 2.4: Model comparison
-- Chapter 2.5: Balancing methods
-- Chapter 2.6.2: Evaluation metrics
 
-The following contributions to the research paper have been partly made by me:
+Proof-reading and improvements on:
+- Chapter X
 
-Furthermore, the references 1-10 have been found and researched by me.
+Furthermore, the references 1-18 have been found and researched by me.
 
 
 ### Other efforts
@@ -187,22 +184,21 @@ Throughout the whole project, I kept notes of each meeting in order to keep reco
 Of course, I also kept my part of the Jira board up to date and documented my work there for an easy overview and communication with my group members.
 
 
-## Diganostics of the learning process
-Our project group definitely learned how important it is to review and check other group member's work, as we realized a couple of weeks into the minor that the csv file we had been working with contained faulty values. Midway through the project the same thing happened and we noticed our assumptions about the dataset were not correct. We could have avoided this by reviewing each others code more in depth before working with the files. However, luckily the changes from the corrupted values were not too high so that the first interpretations we got were not heavily misleading. After updating our old models, which went fairly quick as we simply needed to change the file that the notebook was reading, we could continue where we left off. 
-
-Additionally, we should have cross-validated earlier on early models and experiments, not just the last one. We decided to focus on the models first but it turned out that not cross-validating from the beginning deferred our interpretations on the data. Luckily, we kept our options open until the final experiment in which we cross-validated our data, so we could re-interpret the data rather easily. cuz the conclusions we drew were all on the experiment , which was cross validated , we didn't need to rerun old ones. but also the results were giving us higher hopes than we actually had in the end as results so we started looking into polynomial regression again, which we couldve done earlier if we cross-validated earlier.
-
-...
 
 
-## Evaluation using STARR
+
+## Evaluation
+### My learning objectives (400 words, STARR)
 As a User Experience Design student, I have only had short experiences with coding and programming so far. In order to extend them and learn more about statistics and data visualization, I chose this minor.
 
 As I have not had much background knowledge on the topic, the minor started with a lot of new information to take in. It was difficult for me to get an idea of how to start. I quickly realised that even though I was not sure about things, I had to just do them in order to improve and learn. This also mainly reflected from the 360 degree feedback given to me, so I quickly stopped shying away from coding and since then, my understanding of how data science works and how to approach it grew constantly. 
 
-...
+### My contributions (400 words, STARR)
 
+### The group project (400 words, STARR)
+Our project group definitely learned how important it is to review and check other group member's work, as we realized a couple of weeks into the minor that the csv file we had been working with contained faulty values. Midway through the project the same thing happened and we noticed our assumptions about the dataset were not correct. We could have avoided this by reviewing each others code more in depth before working with the files. However, luckily the changes from the corrupted values were not too high so that the first interpretations we got were not heavily misleading. After updating our old models, which went fairly quick as we simply needed to change the file that the notebook was reading, we could continue where we left off. 
 
+Additionally, we should have cross-validated earlier on early models and experiments, not just the last one. We decided to focus on the models first but it turned out that not cross-validating from the beginning deferred our interpretations on the data. Luckily, we kept our options open until the final experiment in which we cross-validated our data, so we could re-interpret the data rather easily. cuz the conclusions we drew were all on the experiment , which was cross validated , we didn't need to rerun old ones. but also the results were giving us higher hopes than we actually had in the end as results so we started looking into polynomial regression again, which we couldve done earlier if we cross-validated earlier.
 
 
 
