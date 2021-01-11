@@ -1,7 +1,7 @@
 # Personal Portfolio
 Student name: Klara Baumeister  
 Student number: 19029454  
-Course: Applied Data Science minor  
+Course: Applied Data Science minor 20/21
 Lecturers: Jeroen Vuurens, Tony Andrioli, Gerda in 't Veld, Ruud Vermeij, Brian de Keijzer
 
 
@@ -76,16 +76,22 @@ VSParticle, a company based in Delft, has conducted a lot of research in the fie
 
 ### Terminology
 Used jargon in the field of nanoparticles and VSParticle's software is listed here:
-- Thresholding: method for turning a grayscale / colored images into binary images
-- Run: an image being processed once in each step of the software
-- SEM: 
-- TEM: 
-- ...
+- **Nanoparticle:** particles of 100nm or less
+- **SEM (Scanning Electron Microscope):** a method of producing images of nanoparticles by scanning the surface with a focused beam of electrons
+- **TEM (Transmission Electron Microscope):** a method of producing images of nanoparticles by transmitting a beam of electrons through a specimen
+- **Colored image:** a digital image with 3 channels (red, green, blue) of 255 bits each
+- **Grayscale image:** a digital image with 1 channel of 255 bits, where 0=black and 255=white
+- **Bitmap:** a binary image where each pixel has either a value of 0 (black) or 1 (white)
+- **Thresholding:** turning grayscale/colored images into binary images
+- **Thresholding algorithm/method:** saved parameters used in the thresholding process 
+- **Run:** an image being processed once in each step of VSParticle's software
+
+
 
 ### Explanations
 - [Explanation of original json dataset](https://github.com/klarabau/portfolio-ads/blob/main/explanation/data%20explanation.md) 
-- [Explanation of popular classification models](https://github.com/klarabau/portfolio-ads/blob/main/explanation/models%20explanation.md)
 - [Explanation of thresholding algorithms used by VSParticle (notes)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Thresholding%20algorithms.ipynb)
+- [Explanation of popular classification models](https://github.com/klarabau/portfolio-ads/blob/main/explanation/models%20explanation.md)
 
 
 
@@ -111,7 +117,20 @@ Not mandatory courses:
 
 
 ## Most relevant contributions
-- 
+### Data preparation 
+*insert images and text, no notebook links*
+
+### Data visualization 
+*insert images and text, no notebook links*
+
+### Machine Learning models 
+*insert images and text, no notebook links*
+
+### Contributions to group code 
+*insert images and text, no notebook links*
+
+
+
 
 ## List of all of my notebooks 
 
@@ -164,16 +183,13 @@ The following contents of the research plan have been made by me:
 - Changes in the elaboration of sub-question 4, as we changed our approach after group members left
 
 ### Research Paper
-At the point of handing in this portfolio, the research paper has not been 100% finished yet. So far, my contributions to the research paper have been... The research paper (as its current state) can be found [here]().
+At the point of handing in this portfolio, the research paper has not been 100% finished yet. So far, my contributions to the research paper have been widely spread out and useful. The research paper (as its current, unfinished state) can be found [here]().
 
 The following contributions to the research paper have been fully made by me:
 - Creation of file and structure
 - Abstract
 - Introduction
 - Chapter 2.4: Model comparison
-
-Proof-reading and improvements on:
-- Chapter X
 
 Furthermore, the references 1-18 have been found and researched by me.
 
@@ -187,18 +203,44 @@ Of course, I also kept my part of the Jira board up to date and documented my wo
 
 
 
-## Evaluation
-### My learning objectives (400 words, STARR)
-As a User Experience Design student, I have only had short experiences with coding and programming so far. In order to extend them and learn more about statistics and data visualization, I chose this minor.
+## Reflection
+### My learning objectives 
+As a User Experience Design student, I have only had short experiences with programming so far. In order to extend them, while furthermore learning about statistics, data visualization and machine learning, I chose this minor. I believed that it would be a good basis for any direction I choose to specify in in the future. Especially data visualization and programming are related to User Experience Design and can prove to be advantageous for many things related to it. Hence, my objective for this minor was to learn more about the whole subject field, which was nearly completely new to me.
 
-As I have not had much background knowledge on the topic, the minor started with a lot of new information to take in. It was difficult for me to get an idea of how to start. I quickly realised that even though I was not sure about things, I had to just do them in order to improve and learn. This also mainly reflected from the 360 degree feedback given to me, so I quickly stopped shying away from coding and since then, my understanding of how data science works and how to approach it grew constantly. 
+As I have not had much background knowledge on the topic, the minor started with a lot of new information to take in. I had never worked in a Scrum environment before, never actually dealt with machine learning, and while having small background knowledge in programming, I also had never worked with Python. Thus, it was difficult for me to get an idea of how to get started and combine the theoretical knowledge from the lectures with the project in practice. However, I quickly realised that even though I was not sure about things, I had to just do them in order to improve and learn. This was especially important when it came to programming. At the start I was a little nervous about doing programming related tasks, as I did not want to make mistakes or take a lot of time on a task that others could do much quicker. Me shying away from programming also mainly reflected from the 360-degree feedback given to me, after which I decided to finally stop hesitating and use the situation as an opportunity to learn instead. 
 
-### My contributions (400 words, STARR)
+Since I started being fully active in all parts of the project, including programming tasks, I have improved my knowledge of programming, machine learning and data analysis a lot in comparison to where I was in the beginning of this project. My understanding of how data science and machine learning work grew constantly throughout the project. 
 
-### The group project (400 words, STARR)
-Our project group definitely learned how important it is to review and check other group member's work, as we realized a couple of weeks into the minor that the csv file we had been working with contained faulty values. Midway through the project the same thing happened and we noticed our assumptions about the dataset were not correct. We could have avoided this by reviewing each others code more in depth before working with the files. However, luckily the changes from the corrupted values were not too high so that the first interpretations we got were not heavily misleading. After updating our old models, which went fairly quick as we simply needed to change the file that the notebook was reading, we could continue where we left off. 
+The practical approach of this minor resulted in a lot of project-related knowledge on top of the theoretical information from the lectures, which in combination is very valuable to me. I was able to learn a lot about data science and gain a good understanding of how to tackle problems, analyse data and visualize it.
 
-Additionally, we should have cross-validated earlier on early models and experiments, not just the last one. We decided to focus on the models first but it turned out that not cross-validating from the beginning deferred our interpretations on the data. Luckily, we kept our options open until the final experiment in which we cross-validated our data, so we could re-interpret the data rather easily. cuz the conclusions we drew were all on the experiment , which was cross validated , we didn't need to rerun old ones. but also the results were giving us higher hopes than we actually had in the end as results so we started looking into polynomial regression again, which we couldve done earlier if we cross-validated earlier.
+In reflection, I am content with what I have and am motivated to extend my knowledge further in the future. Especially the programming and data visualization parts are related to my study and can be helpful for many directions of work. However, I could have used the time at the start of the project more wisely and learn even more by actively programming more complicated things earlier on.
+
+
+
+
+### My contributions 
+As a User Experience Design student, I have only had short experiences with programming so far. I was aware of the fact that with my background knowledge, I had to learn a lot and work hard in order to be a valuable addition to a team, but I was eager to do this and contribute to a group with people from different study fields. I saw this as an opportunity of perhaps being adding a different background and therefore different perspective to the group work.
+
+Not had much background knowledge on the topic lead to me being hesitant at the start of the project, especially regarding programming related tasks. It took me some time to adjust to the new setting of (online) group work using Scrum, while also being new to the whole topic and project field. Even though in our group, we did not strictly divide assignments, at the start it came naturally that the members more knowledgeable in the programming field would do more programming related tasks, while I would do few minor programming tasks and focus on preparing presentations, writing the research plan and helping out wherever possible. However, after the initial two to three weeks of adjustment, I was able to participate in every part of the project and actively push the project forward.
+
+My activities and contributions ranged from visualizing data, creating machine learning models, analysing their outcomes and giving ideas, to preparing and presenting weekly internal and external presentations, writing parts of the research plan, and in the end writing parts of the research paper. Additionally, I actively took part in daily standups, meetings and Scrum retrospectives, kept notes of every meeting, and kept our Scrumboard up to date. Even though these are minor tasks, not doing them can hamper a project immensely, hence they are also important.
+
+My contributions resulted in an, in my opinion, balanced and successful group project. My work was often beneficial for gathering new directions for future work and also important for the organizational aspect of the project. Meanwhile, I was able to learn a lot throughout the project for possible future tasks and relations to this topic.
+
+Reflecting on how the project went, I could have used the time at the beginning of the project better to actively forward this project early on. I especially should have done more (complicated) programming tasks in order to relieve my group members from a higher workload. However, as the project progressed the work between our group members became more and more evenly distributed and every member took part in every part of the project.
+
+
+
+### The group project
+As our group consists of two programming-related students (Mechatronics and Computer Science), and me being more of an "allrounder" with professional knowledge of image processing, research, design, and little background knowledge in programming, we were well prepared for this project.
+
+Our project group definitely learned how important it is to review and check other group member's work, as we realized a couple of weeks into the minor that the csv-file we had been working with contained faulty values. Midway through the project the same thing happened again, where we noticed our assumptions about the dataset were not correct. We could have avoided this easily by reviewing each other’s code more in depth before working with the files. However, luckily the changes from the corrupted values were not too high so that the first interpretations we got were not heavily misleading. After updating our old models, which went quick as we simply needed to change one line of code, we could continue where we left off. 
+
+Additionally, we should have cross-validated earlier on early models and experiments, not just the last ones in the project. We decided to focus on the different models first, but it turned out that not cross-validating from the beginning deferred our interpretations on the outcomes. Luckily, we kept our options open until the experiment in which we applied cross-validation. Because the important conclusions were all derived from the experiment, we did not need to rerun old models. However, the false results from not cross-validating were giving us and our project owner unnecessarily high hopes, which was a disappointment we could have avoided.
+
+Another thing we should have handled differently was looking into polynomial regression towards the end of the project. Even though we are dealing with a classification problem, we listened to our problem owner and took valuable time from the end of the project to look into linear regression again, which we had already done in the beginning but concluded to not continue with for multiple reasons. We could have saved time which potentially would have led to more promising classification results if we explained the reasons why we did not continue with it in the first place to our project owner repeatedly.
+
+In reflection, the mistakes we made as a group were all avoidable and cost us time and almost fatally misleading results. We should have avoided this by following the lectures more closely and reviewing each other’s code. However, on a positive note, we learned how important cross-validation, reviewing and following the sprint plan is, and can say that this was the last time any of these mistakes will happen to us.
 
 
 
