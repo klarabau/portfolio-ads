@@ -7,7 +7,7 @@ We received our data in a json file structured as follows:
 (This visualization does not show every single parameter in the json file as to not make it overly complicated and lengthy. It should rather give insight into the general structure of the file.)
 
 ![](https://github.com/klarabau/portfolio-ads/blob/main/explanation/data%20explanation%20visual.png)
-
+<img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/data%20explanation%20visual.png" width=50%>
 
 ### Scores
 

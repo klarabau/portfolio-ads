@@ -79,8 +79,8 @@ Used jargon in the field of nanoparticles and VSParticle's software is listed he
 - **Nanoparticle:** particles of 100nm or less
 - **SEM (Scanning Electron Microscope):** a method of producing images of nanoparticles by scanning the surface with a focused beam of electrons
 - **TEM (Transmission Electron Microscope):** a method of producing images of nanoparticles by transmitting a beam of electrons through a specimen
-- **Colored image:** a digital image with 3 channels (red, green, blue) of 255 bits each
-- **Grayscale image:** a digital image with 1 channel of 255 bits, where 0=black and 255=white
+- **Colored image:** a digital image with 3 channels (red, green, blue) of 8 bits each
+- **Grayscale image:** a digital image with 1 channel of 8 bits, where 0=black and 255=white
 - **Bitmap:** a binary image where each pixel has either a value of 0 (black) or 1 (white)
 - **Thresholding:** turning grayscale/colored images into binary images
 - **Thresholding algorithm/method:** saved parameters used in the thresholding process 
@@ -185,13 +185,15 @@ The following contents of the research plan have been made by me:
 ### Research Paper
 At the point of handing in this portfolio, the research paper has not been 100% finished yet. So far, my contributions to the research paper have been widely spread out and useful. The research paper (as its current, unfinished state) can be found [here]().
 
-The following contributions to the research paper have been fully made by me:
-- Creation of file and structure
+The following contributions to the research paper have been made by me:
+- Creation of structure (group work)
 - Abstract
 - Introduction
-- Chapter 2.4: Model comparison
+- Chapter 2.2: Model comparison
+- Chapter 4.1: Review
+- Chapter 4.2: Final model
 
-Furthermore, the references 1-18 have been found and researched by me.
+Furthermore, the references 1-20 have been found and researched by me.
 
 
 ### Other efforts
