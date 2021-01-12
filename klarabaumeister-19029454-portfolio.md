@@ -198,7 +198,7 @@ The following contents of the research plan have been made by me:
 - Changes in the elaboration of sub-question 4, as we changed our approach after group members left
 
 ### Research Paper
-At the point of handing in this portfolio, the research paper has not been 100% finished yet. So far, my contributions to the research paper have been widely spread out and useful. The research paper (as its current, unfinished state) can be found [here]().
+At the point of handing in this portfolio, the research paper has not been 100% finished yet. So far, my contributions to the research paper have been widely spread out and useful. The research paper (as its current, unfinished state) can be found [here](https://github.com/klarabau/portfolio-ads/blob/main/research%20paper/Research%20paper%20unfinished.pdf).
 
 At this point in time, the following contributions to the research paper have been made by me:
 - Creation of structure (group work)
