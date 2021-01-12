@@ -127,7 +127,7 @@ Not mandatory courses:
 ## Most relevant contributions
 
 ### Random Oversampling
-<img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/ros-1.png" width=30%> <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/ros-2.png" width=30%>
+<img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/ros-1.png" width=40%> <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/ros-2.png" width=40%> <br>
 My research on random oversampling turned out to be extremely helpful as we ended up using it in the final model. It helped us balance out the classes as can be seen in the image above.
 
 ### Experiment: Feature visualization
@@ -208,9 +208,7 @@ Furthermore, the references 1-20 have been found and researched by me.
 
 
 ### Other efforts
-Throughout the whole project, I kept notes of each meeting in order to keep record of them for possible questions later on. 
-
-Of course, I also kept my part of the Jira board up to date and documented my work there for an easy overview and communication with my group members.
+Throughout the whole project, I kept notes of each meeting in order to keep record of them for possible questions later on. Of course, I also kept my part of the Jira board up to date and documented my work there for an easy overview and communication with my group members.
 
 
 
