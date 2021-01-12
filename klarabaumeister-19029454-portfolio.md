@@ -32,7 +32,7 @@ Regarding the features, the analysation of the experiment concluded in using cou
 
 Finally, we decided on a logistic regression model as it fits our classification problem and leads to the best result the large majority of all experiment runs. In order to deal with our imbalanced data, we used the XXX technique on our classes in order to get an even class distribution and unbiased results. XXX also has the advantage of creating more data points instead of reducing the dataset like for example Random Undersampling, which is beneficial in regard to our small dataset.
 
-For future work on this project, we recommend three improvements that will perhaps lead to more promising results: During the experiment, a test set should be provided additionally to the training and validation set. The test set enables completely unbiased evaluation of the experiment's results and therefore is strongly advised, however regarding our small dataset we decided against it, as our validation set already consits of only 11 samples. Furthermore, the features derived from other steps than the thresholding step should potentially also be taken into account and implemented into the model, as the user score does not only derive from the thresholding step but the whole run of an image through all steps. The user probably even takes into account the image quality in general, so this needs to be remembered too while evaluating this project. Additionally, this problem could also perhaps be solved with a ranking model instead of classification. However, our dataset dit not provide enough comparable runs, which is why we were not able to fully pursue this idea.
+For future work on this project, we recommend three improvements that will perhaps lead to more promising results: During the experiment, a test set should be provided additionally to the training and validation set. The test set enables completely unbiased evaluation of the experiment's results and therefore is strongly advised, however regarding our small dataset we decided against it, as our validation set already consits of only 11 samples. Furthermore, the features derived from other steps than the thresholding step should potentially also be taken into account and implemented into the model, as the user score does not only derive from the thresholding step but the whole run of an image through all steps. The user probably even takes into account the image quality in general, so this needs to be remembered too while evaluating this project. Additionally, this problem could also perhaps be solved with a ranking model instead of classification. However, our dataset dit not provide enough comparable runs, which is why we were not able to fully pursue this idea.<
 
 ### Planning
 To make our group work as efficient and agile as possible, we used Scrum. We planned sprint periods of two weeks, including daily standups and retrospectives at the end of each sprint. In order to get an overview of everybody's work progress, we used the platform Jira to create a Scrumboard. All of our completed issues from the sprints can be found [here](https://vsparticle-nano.atlassian.net/jira/software/c/projects/NANO/issues).
@@ -125,17 +125,21 @@ Not mandatory courses:
 
 
 ## Most relevant contributions
-### Data preparation 
-*insert images and text, no notebook links*
 
-### Data visualization 
-*insert images and text, no notebook links*
+### Random Oversampling
+<img src="#">
+My research on random oversampling turned out to be extremely helpful as we ended up using it in the final model. It helped us balance out the classes as can be seen in the image above.
 
-### Machine Learning models 
-*insert images and text, no notebook links*
+### Experiment: Feature visualization
+<img src="#">
+This visualization I made is easily changeable to display any model/class/balancing method combination used in the experiment. In this case, it visualizes the best feature combinations for a 5-class Logistic Regression model, which is the selection we made for the final model. It therefore shows the best feature combinations to use for it: "bcfis", "cfis", "abcfis" being the top three and achieving nearly the same accuracy scores.
 
-### Contributions to group code 
-*insert images and text, no notebook links*
+### Final model: Feature selection (correlation check)
+<img src="#">
+This table shows the linear correlation of all possible features. We can see that border and separation, as well as area spread and fill, are most closely related to each other. This helped us in selecting the final feature combination for the model, as the three highest scoring combinations in the experiment, "cfis", "bcfis" and "abcfis" (where a=area spread, b=border, c=count, f=fill, i=intensity, s=separation), were very close to each other in terms of accuracy. But keeping in mind that collinear features can lead to an unstable and unnecessarily complex model, we concluded that the model performs better in the long-term with using "cfis" instead of "bcifs" or "abcfis", since "bcfis" includes border and separation, and "abcfis" even includes both border and separation and area spread and fill. 
+
+
+
 
 
 
@@ -163,8 +167,7 @@ Not mandatory courses:
 
 ### Contributions to group code 
 - [Experiment: Random Oversampling function](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Random%20Oversampling%20Function%20for%20experiment.ipynb)
-- [Final model: Confusion matrix]()
-- [Final model: Feature selection (correlation check)]()
+- [Final model: Feature selection (correlation check)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Correlated%20features%20test.ipynb)
 
 
 
