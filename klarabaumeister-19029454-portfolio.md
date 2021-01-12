@@ -64,7 +64,7 @@ Regarding the work with nanoparticles, F. Li et al. used a multiple thresholding
 
 <details><summary>VSParticle</summary>
 	
-VSParticle, a company based in Delft, has conducted a lot of research in the field of nanoparticles over the past years. Calculating the size of nanoparticles using microscopic images is one branch they focus their work on. ([VSParticle][8]). 
+[VSParticle][8], a company based in Delft, has conducted a lot of research in the field of nanoparticles over the past years. Calculating the size of nanoparticles using microscopic images is one branch they focus their work on.
 </details>
 
 [1]: https://en.wikipedia.org/wiki/Nanoparticle
@@ -128,15 +128,15 @@ Not mandatory courses:
 
 ### Multiclass Logistic Regression model: separation, intensity, count
 <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/logreg.png" width=40%> <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/conf_m_logreg.png" width=40%> <br>
-This first look into a logistic regression model I did at the start of the project led to us concluding that it is worth looking into further and could potentially be useful. This resulted in us using a logistic regression model in the end.
+This first look into a logistic regression model I did at the start of the project led to us concluding that it is worth looking into further and could potentially be useful. Displayed in the visuazlizations above, the predictions and confusion matrix displayed promising results for a logistic regression model. This resulted in us using a logistic regression model in the end. 
 
 ### Random Oversampling
 <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/ros-1.png" width=40%> <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/ros-2.png" width=40%> <br>
-My research on random oversampling turned out to be extremely helpful as we ended up using it in the final model. It helped us balance out the classes as can be seen in the image above.
+My research on random oversampling turned out to be extremely helpful as we ended up using it in the final model. It helped us balance out the classes as can be seen in the image above, which display the record count for the yen and otsu algorithm, in this case for only three classes (left: before balancing, right: after balancing).
 
 ### Experiment: Feature visualization
 <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/feature_comp.png">
-This visualization I made was intended to be easily changeable to display any model/class/balancing method combination used in the experiment, thus allowing us to gain first insights for the features of any combination. In this case, however, it visualizes the best feature combinations for our final mode, a 5-class Logistic Regression model. It therefore was also very valuable to depict the best feature combinations to use for the final model: "bcfis", "cfis", "abcfis" being the top three and achieving nearly the same accuracy scores.
+This visualization I made was intended to be easily changeable to display any model/class/balancing method combination used in the experiment, thus allowing us to gain first insights for the features of any combination. In this case, however, it visualizes the best feature combinations for our final mode, a 5-class logistic regression model. It therefore was also very valuable to depict the best feature combinations to use for the final model: "bcfis", "cfis", "abcfis" being the top three and achieving nearly the same accuracy scores.
 
 ### Final model: Feature selection (correlation check)
 <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/feature%20correlations.png" width=60%> <br>
@@ -206,6 +206,7 @@ At this point in time, the following contributions to the research paper have be
 - Introduction
 - Chapter 2.2: Model comparison
 - Chapter 4.1: Review
+- Chapter 4.2: Final model (unfinished)
 
 Furthermore, the references 1-20 have been found and researched by me.
 
