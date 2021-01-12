@@ -1,8 +1,8 @@
 # Personal Portfolio
 Student name: Klara Baumeister  
 Student number: 19029454  
-Course: Applied Data Science minor 20/21
-Lecturers: Jeroen Vuurens, Tony Andrioli, Gerda in 't Veld, Ruud Vermeij, Brian de Keijzer
+Course: Applied Data Science minor 20/21  
+Lecturers: Jeroen Vuurens, Tony Andrioli, Gerda in 't Veld, Ruud Vermeij, Brian de Keijzer  
 
 
 ## Research project
@@ -21,18 +21,18 @@ To answer our research question in detail, we are going to focus on the followin
 4. How can the predictions of the model, graded by VSParticle’s user, be employed to improve the model over time?
 
 ### Evaluation
-In order to achieve our goal, we received a json file from VSParticle containing IDs of each run, parameters of the run, metadata of the image, resulting images of each step, and scores. The scores were our main point of focus: they contain computer generated values that describe the image and evaluate how well each step of the program worked. The json file also included a user score, given manually by the user at the end of each run of the program. Both these scores were intended to be the input features for our thresholding algorithm prediction. However, early on, we had a change of approach: Instead of predicting the thresholding algorithm with the features **and** the user score, we focused on predicting the user score **with** the features. Then we could select the thresholding algorithm that scored the highest user score. Therefore we planned to create one model for each threshold method, with each model predicting the user score the threshold method would give.
+In order to achieve our goal, we received a json file from VSParticle containing IDs of each run, parameters of the run, metadata of the image, resulting images of each step, and scores. The scores were our main point of focus: they contain computer generated values that describe the image and evaluate how well each step of the program worked. The json file also included a user score, given manually by the user at the end of each run of the program. Both these scores were intended to be the input features for our thresholding algorithm prediction. However, early on, we had a change of approach: Instead of predicting the thresholding algorithm with the features **and** the user score, we focused on predicting the user score **with** the features. This is because through the user scores we have an indication of whether the threshold method is working well or not. Then we could select the thresholding algorithm that scored the highest user score. Therefore we planned to create one model for each threshold method, with each model predicting the user score the threshold method would give. As the user scores are a finite set of categories, we are dealing with a classification problem here.
 
 To answer our research question, we conducted an experiment which calculates scores for all possible combinations of models, number of classes, features, and balancing methods.
 
 ### Conclusions
-In conclusion, the data needed to be restructured in a way that allows us to have as many samples in one class as possible while still keeping a high class number for detailed class distinction. This was achieved by collapsing the 10 user scores into 5 classes.
+At the end of our research project, we came to the conclusion that the data needed to be restructured in a way that allows us to have as many samples in one class as possible while still keeping a high class number for detailed class distinction. This was achieved by collapsing the 10 user scores into 5 classes.
 
 Regarding the features, the analysation of the experiment concluded in using count, fill, intensity and separation since these result in a high accuracy in most most model combinations and therefore are reliable, and none of them are collinear with each other which would lead to a potentially unstable model.
 
-Finally, we decided on a logistic regression model as it fits our classification problem and leads to the best result the large majority of all experiment runs. In order to deal with our imbalanced data, we used the XXX technique on our classes in order to get an even class distribution and unbiased results. XXX also has the advantage of creating more data points instead of reducing the dataset like for example Random Undersampling, which is beneficial in regard to our small dataset.
+Finally, we decided on a logistic regression model as it fits our classification problem and leads to the best result the large majority of all experiment runs. In order to deal with our imbalanced data, we used the random oversampling technique on our classes in order to get an even class distribution and unbiased results. Random oversampling also has the advantage of creating more data points instead of reducing the dataset like for example random undersampling, which is beneficial in regard to our small dataset.
 
-For future work on this project, we recommend three improvements that will perhaps lead to more promising results: During the experiment, a test set should be provided additionally to the training and validation set. The test set enables completely unbiased evaluation of the experiment's results and therefore is strongly advised, however regarding our small dataset we decided against it, as our validation set already consits of only 11 samples. Furthermore, the features derived from other steps than the thresholding step should potentially also be taken into account and implemented into the model, as the user score does not only derive from the thresholding step but the whole run of an image through all steps. The user probably even takes into account the image quality in general, so this needs to be remembered too while evaluating this project. Additionally, this problem could also perhaps be solved with a ranking model instead of classification. However, our dataset dit not provide enough comparable runs, which is why we were not able to fully pursue this idea.<
+For future work on this project, we recommend three improvements that will perhaps lead to more promising results: During the experiment, a test set should be provided additionally to the training and validation set. The test set enables completely unbiased evaluation of the experiment's results and therefore is strongly advised, however regarding our small dataset we decided against it, as our validation set already consits of only 11 samples. Furthermore, the features derived from other steps than the thresholding step should potentially also be taken into account and implemented into the model, as the user score does not only derive from the thresholding step but the whole run of an image through all steps. The user probably even takes into account the image quality in general, so this needs to be remembered too while evaluating this project. Additionally, this problem could also perhaps be solved with a ranking model instead of classification. However, our dataset did not provide enough comparable runs, which is why we were not able to fully pursue this idea.
 
 ### Planning
 To make our group work as efficient and agile as possible, we used Scrum. We planned sprint periods of two weeks, including daily standups and retrospectives at the end of each sprint. In order to get an overview of everybody's work progress, we used the platform Jira to create a Scrumboard. All of our completed issues from the sprints can be found [here](https://vsparticle-nano.atlassian.net/jira/software/c/projects/NANO/issues).
@@ -55,7 +55,7 @@ For analysation and documentation, microscopic images of the particles are often
 
 <details><summary>Thresholding</summary>
 	
-Thresholding is the process of turning a grayscale / colored image into a binary one with either black or white pixels. It is differenciated into global and local thresholding methods: Global thresholding focuses on the image histogram, analyzing its peaks, valleys and curves, while local thresholding computes a threshold for each pixel and turns it either black or white ([source][4]).
+Thresholding is the process of turning a grayscale / colored image into a binary one, containing either black or white pixels. It is differenciated into global and local thresholding methods: Global thresholding focuses on the image histogram, analyzing its peaks, valleys and curves, while local thresholding computes a threshold for each pixel and turns it either black or white ([source][4]).
 
 Algorithms used in thresholding can be saved for repeated use as thresholding methods. Most methods use image intensity li, j to determine whether a pixel turns white or black. If li, j is smaller than a fixed constant T, the pixel turns black ([source][5]). There are multiple methods that have been proved to be very efficient, for example Otsu([source][10]), Yen([source][11]) and many more([source][4]).
 
@@ -93,6 +93,7 @@ Used jargon in the field of nanoparticles and VSParticle's software is listed he
 - **Thresholding:** turning grayscale/colored images into binary images
 - **Thresholding algorithm/method:** saved parameters used in the thresholding process 
 - **Run:** an image being processed once in each step of VSParticle's software
+- **Image histogram:** histogram representating the pixel values distributed throughout an image
 
 
 
@@ -136,7 +137,7 @@ My research on random oversampling turned out to be extremely helpful as we ende
 
 ### Experiment: Feature visualization
 <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/feature_comp.png">
-This visualization I made was intended to be easily changeable to display any model/class/balancing method combination used in the experiment, thus allowing us to gain first insights for the features of any combination. In this case, however, it visualizes the best feature combinations for our final mode, a 5-class logistic regression model. It therefore was also very valuable to depict the best feature combinations to use for the final model: "bcfis", "cfis", "abcfis" being the top three and achieving nearly the same accuracy scores.
+This visualization I made was intended to be easily changeable to display any model/class/balancing method combination used in the experiment, thus allowing us to gain first insights for the features of any combination. In this case, however, it visualizes the best feature combinations for our final model, a 5-class logistic regression model. It therefore was also very valuable to depict the best feature combinations to use for the final model: "bcfis", "cfis", "abcfis" being the top three and achieving nearly the same accuracy scores.
 
 ### Final model: Feature selection (correlation check)
 <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/feature%20correlations.png" width=60%> <br>
@@ -177,6 +178,8 @@ This table shows the linear correlation of all possible features. We can see tha
 
 ## Communication 
 ### Presentations
+During this project, I have created and presented various internal and external presentations in order to update our lecturers and classmates on any changes of the project. The pdfs of the presentations are listed here:
+
 - [In week 2](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week2%20internal.pdf): Internal presentation, created and presented by me 
 - [In week 3](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week3%20internal.pdf): Internal presentation, created and presented by me 
 - [In week 4](https://github.com/klarabau/portfolio-ads/blob/main/presentations/week4%20external.pdf): External presentation, created and presented by Yoran and me
@@ -188,17 +191,16 @@ This table shows the linear correlation of all possible features. We can see tha
 
 
 ### Research Plan
-My contributions to the research paper have been broadly spread out and significant. My contributions ranged from writing detailed chapters like the introduction and individual sub-question descriptions, to general layout. The research plan can be found [here](https://github.com/klarabau/portfolio-ads/blob/main/research%20plan/research%20plan.pdf).
+My contributions to the research plan have been broadly spread out and significant. My contributions ranged from writing detailed chapters like the introduction and individual sub-question descriptions, to general layout and formulation of the research question. The research plan can be found [here](https://github.com/klarabau/portfolio-ads/blob/main/research%20plan/research%20plan.pdf).
 
 The following contents of the research plan have been made by me:
 - Introduction
 - Formulation of the research question 
 - Formulation of sub-questions (with Oscar)
 - Elaboration on sub-questions two, three and four 
-- Changes in the elaboration of sub-question 4, as we changed our approach after group members left
 
 ### Research Paper
-At the point of handing in this portfolio, the research paper has not been 100% finished yet. So far, my contributions to the research paper have been widely spread out and useful. The research paper (as its current, unfinished state) can be found [here](https://github.com/klarabau/portfolio-ads/blob/main/research%20paper/Research%20paper%20unfinished.pdf).
+At the point of handing in this portfolio, the research paper has not been 100% finished yet. So far, my contributions to the research paper have been widely spread out and useful. The research paper (in its current, unfinished state) can be found [here](https://github.com/klarabau/portfolio-ads/blob/main/research%20paper/Research%20paper%20unfinished.pdf).
 
 At this point in time, the following contributions to the research paper have been made by me:
 - Creation of structure (group work)
@@ -228,26 +230,26 @@ Since I started being fully active in all parts of the project, including progra
 
 The practical approach of this minor resulted in a lot of project-related knowledge on top of the theoretical information from the lectures, which in combination is very valuable to me. I was able to learn a lot about data science and gain a good understanding of how to tackle problems, analyse data and visualize it.
 
-In reflection, I am content with what I have and am motivated to extend my knowledge further in the future. Especially the programming and data visualization parts are related to my study and can be helpful for many directions of work. However, I could have used the time at the start of the project more wisely and learn even more by actively programming more complicated things earlier on.
+In reflection, I am content with what I have learned and am motivated to extend my knowledge further in the future. Especially the programming and data visualization parts are related to my study and can be helpful for many directions of work. However, I could have used the time at the start of the project more wisely and learn even more by actively programming more complicated things earlier on.
 
 
 
 
 ### My contributions 
-As a User Experience Design student, I have only had short experiences with programming so far. I was aware of the fact that with my background knowledge, I had to learn a lot and work hard in order to be a valuable addition to a team, but I was eager to do this and contribute to a group with people from different study fields. I saw this as an opportunity of perhaps being adding a different background and therefore different perspective to the group work.
+As a User Experience Design student, I have only had short experiences with programming so far. I was aware of the fact that with my background knowledge, I had to learn a lot and work hard in order to be a valuable addition to a team, but I was eager to do this and contribute to a group with people from different study fields. I saw this as an opportunity of perhaps being able to add a different perspective to the group work.
 
-Not had much background knowledge on the topic lead to me being hesitant at the start of the project, especially regarding programming related tasks. It took me some time to adjust to the new setting of (online) group work using Scrum, while also being new to the whole topic and project field. Even though in our group, we did not strictly divide assignments, at the start it came naturally that the members more knowledgeable in the programming field would do more programming related tasks, while I would do few minor programming tasks and focus on preparing presentations, writing the research plan and helping out wherever possible. However, after the initial two to three weeks of adjustment, I was able to participate in every part of the project and actively push the project forward.
+Not having much background knowledge on the topic lead to me being hesitant at the start of the project, especially regarding programming related tasks. It took me some time to adjust to the new setting of (online) group work using Scrum, while also being new to the whole topic and project field. Even though in our group, we did not strictly divide assignments, at the start it came naturally that the members more knowledgeable in the programming field would do more programming related tasks, while I would do few minor programming tasks and focus on preparing presentations, writing the research plan and helping out wherever possible. However, after the initial two to three weeks of adjustment, I was able to participate in every part of the project and actively push the project forward.
 
 My activities and contributions ranged from visualizing data, creating machine learning models, analysing their outcomes and giving ideas, to preparing and presenting weekly internal and external presentations, writing parts of the research plan, and in the end writing parts of the research paper. Additionally, I actively took part in daily standups, meetings and Scrum retrospectives, kept notes of every meeting, and kept our Scrumboard up to date. Even though these are minor tasks, not doing them can hamper a project immensely, hence they are also important.
 
-My contributions resulted in an, in my opinion, balanced and successful group project. My work was often beneficial for gathering new directions for future work and also important for the organizational aspect of the project. Meanwhile, I was able to learn a lot throughout the project for possible future tasks and relations to this topic.
+My contributions resulted in a, in my opinion, balanced and successful group project. My work was often beneficial for gathering new directions for future work and also important for the organizational aspect of the project. Meanwhile, I was able to learn a lot throughout the project for possible future tasks and relations to this topic.
 
 Reflecting on how the project went, I could have used the time at the beginning of the project better to actively forward this project early on. I especially should have done more (complicated) programming tasks in order to relieve my group members from a higher workload. However, as the project progressed the work between our group members became more and more evenly distributed and every member took part in every part of the project.
 
 
 
 ### The group project
-As our group consists of two programming-related students (Mechatronics and Computer Science), and me being more of an "allrounder" with professional knowledge of image processing, research, design, and little background knowledge in programming, we were well prepared for this project.
+As our group consists of two programming-related students (Mechatronics and Computer Science), and me being more of an "allrounder" with professional knowledge of image processing, research, design, and little background knowledge in programming, we were well prepared for this project in general. However, some mistakes still happened to us from which we were luckily able to learn.
 
 Our project group definitely learned how important it is to review and check other group member's work, as we realized a couple of weeks into the minor that the csv-file we had been working with contained faulty values. Midway through the project the same thing happened again, where we noticed our assumptions about the dataset were not correct. We could have avoided this easily by reviewing each other’s code more in depth before working with the files. However, luckily the changes from the corrupted values were not too high so that the first interpretations we got were not heavily misleading. After updating our old models, which went quick as we simply needed to change one line of code, we could continue where we left off. 
 
@@ -255,7 +257,7 @@ Additionally, we should have cross-validated earlier on early models and experim
 
 Another thing we should have handled differently was looking into polynomial regression towards the end of the project. Even though we are dealing with a classification problem, we listened to our problem owner and took valuable time from the end of the project to look into linear regression again, which we had already done in the beginning but concluded to not continue with for multiple reasons. We could have saved time which potentially would have led to more promising classification results if we explained the reasons why we did not continue with it in the first place to our project owner repeatedly.
 
-In reflection, the mistakes we made as a group were all avoidable and cost us time and almost fatally misleading results. We should have avoided this by following the lectures more closely and reviewing each other’s code. However, on a positive note, we learned how important cross-validation, reviewing and following the sprint plan is, and can say that this was the last time any of these mistakes will happen to us.
+In reflection, the mistakes we made as a group were all avoidable and cost us time and almost fatally misleading results. We should have avoided this by following the lectures more closely in practice and reviewing each other’s code. However, on a positive note, we learned how important cross-validation, reviewing and following the sprint plan is, and can say that this was the last time any of these mistakes will happen to us.
 
 
 
