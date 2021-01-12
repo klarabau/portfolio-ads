@@ -126,6 +126,10 @@ Not mandatory courses:
 
 ## Most relevant contributions
 
+### Multiclass Logistic Regression model: separation, intensity, count
+<img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/logreg.png" width=40%> <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/conf_m_logreg.png" width=40%> <br>
+This first look into a logistic regression model I did at the start of the project led to us concluding that it is worth looking into further and could potentially be useful. This resulted in us using a logistic regression model in the end.
+
 ### Random Oversampling
 <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/ros-1.png" width=40%> <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/ros-2.png" width=40%> <br>
 My research on random oversampling turned out to be extremely helpful as we ended up using it in the final model. It helped us balance out the classes as can be seen in the image above.
@@ -159,8 +163,8 @@ This table shows the linear correlation of all possible features. We can see tha
 - [Linear/Polynomial Regression model: count vs. user score (yen)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/LinReg%20count%20vs%20user%20score%20(only%20yen).ipynb) 
 - [Linear/Polynomial Regression model: separation vs. user score (yen)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/LinReg%20separation%20vs%20user%20score%20(only%20yen).ipynb) 
 - [Linear/Polynomial Regression model: separation, border vs. user score (yen)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/LinReg%20separation%20and%20border%20vs%20user%20score%20(only%20yen).ipynb) 
-- [Multiclass Logistic Regression model: feature comparison (yen, with help from Yoran)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Multiclass%20logistic%20regression%20feature%20combinations.ipynb)
 - [Multiclass Logistic Regression model: separation, intensity, count (yen)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Multiclass%20logistic%20regression.ipynb)
+- [Multiclass Logistic Regression model: feature comparison (yen, with help from Yoran)](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Multiclass%20logistic%20regression%20feature%20combinations.ipynb)
 - [Logistic and Polynomial Regression models: Test set comparison](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Logistic%20%26%20Polynomial%20regression%20(compared%20to%20ground%20truth).ipynb)
 - [Polynomial Regression example](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Polynomial%20Regression%20example.ipynb)
 - [Polynomial Regression experiment](https://github.com/klarabau/portfolio-ads/blob/main/notebooks/Polynomial%20Regression%20experiment.ipynb)
