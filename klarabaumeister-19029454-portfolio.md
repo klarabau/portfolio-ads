@@ -127,7 +127,7 @@ Not mandatory courses:
 ## Most relevant contributions
 
 ### Random Oversampling
-<img src="#">
+<img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/ros-1.png" width=30%> <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/ros-2.png" width=30%>
 My research on random oversampling turned out to be extremely helpful as we ended up using it in the final model. It helped us balance out the classes as can be seen in the image above.
 
 ### Experiment: Feature visualization
