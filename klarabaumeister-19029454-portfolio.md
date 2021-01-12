@@ -131,11 +131,11 @@ Not mandatory courses:
 My research on random oversampling turned out to be extremely helpful as we ended up using it in the final model. It helped us balance out the classes as can be seen in the image above.
 
 ### Experiment: Feature visualization
-<img src="#">
-This visualization I made is easily changeable to display any model/class/balancing method combination used in the experiment. In this case, it visualizes the best feature combinations for a 5-class Logistic Regression model, which is the selection we made for the final model. It therefore shows the best feature combinations to use for it: "bcfis", "cfis", "abcfis" being the top three and achieving nearly the same accuracy scores.
+<img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/feature_comp.png">
+This visualization I made was intended to be easily changeable to display any model/class/balancing method combination used in the experiment, thus allowing us to gain first insights for the features of any combination. In this case, however, it visualizes the best feature combinations for our final mode, a 5-class Logistic Regression model. It therefore was also very valuable to depict the best feature combinations to use for the final model: "bcfis", "cfis", "abcfis" being the top three and achieving nearly the same accuracy scores.
 
 ### Final model: Feature selection (correlation check)
-<img src="#">
+<img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/feature%20correlations.png">
 This table shows the linear correlation of all possible features. We can see that border and separation, as well as area spread and fill, are most closely related to each other. This helped us in selecting the final feature combination for the model, as the three highest scoring combinations in the experiment, "cfis", "bcfis" and "abcfis" (where a=area spread, b=border, c=count, f=fill, i=intensity, s=separation), were very close to each other in terms of accuracy. But keeping in mind that collinear features can lead to an unstable and unnecessarily complex model, we concluded that the model performs better in the long-term with using "cfis" instead of "bcifs" or "abcfis", since "bcfis" includes border and separation, and "abcfis" even includes both border and separation and area spread and fill. 
 
 
