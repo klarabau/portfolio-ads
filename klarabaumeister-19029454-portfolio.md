@@ -200,13 +200,12 @@ The following contents of the research plan have been made by me:
 ### Research Paper
 At the point of handing in this portfolio, the research paper has not been 100% finished yet. So far, my contributions to the research paper have been widely spread out and useful. The research paper (as its current, unfinished state) can be found [here]().
 
-The following contributions to the research paper have been made by me:
+At this point in time, the following contributions to the research paper have been made by me:
 - Creation of structure (group work)
 - Abstract
 - Introduction
 - Chapter 2.2: Model comparison
 - Chapter 4.1: Review
-- Chapter 4.2: Final model
 
 Furthermore, the references 1-20 have been found and researched by me.
 
