@@ -133,7 +133,7 @@ This first look into a logistic regression model I did at the start of the proje
 
 ### Random Oversampling
 <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/ros-1.png" width=40%> <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/ros-2.png" width=40%> <br>
-My research on random oversampling turned out to be extremely helpful as we ended up using it in the final model. It helped us balance out the classes as can be seen in the image above, which display the record count for the yen and otsu algorithm, in this case for only three classes (left: before balancing, right: after balancing).
+My research on random oversampling turned out to be extremely helpful as we ended up using it in the final model. It helped us balance out the classes as can be seen in the image above, which display the record count for the yen and otsu algorithm, in this case for only three classes (left: before balancing, right: after balancing). The advantage of this method is that we can create more samples for a class, e.g. go from 25 samples for yen to having 35 samples. However, this also encourages the model to overfit, hence it is necessary to implement countermeasures against it.
 
 ### Experiment: Feature visualization
 <img src="https://github.com/klarabau/portfolio-ads/blob/main/explanation/feature_comp.png">
